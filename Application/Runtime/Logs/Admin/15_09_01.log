@@ -1,0 +1,2301 @@
+[ 2015-09-01T08:45:59+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2015-09-01T08:46:00+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Login/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2015-09-01T08:46:00+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Login/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2015-09-01T08:46:03+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Login/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0218s ]
+SQL: SELECT * FROM `think_user` WHERE ( username = 'ruby97' AND password = '405958c9e0888f6ddc6221f90576490c' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-09-01T08:46:03+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `think_members` [ RunTime:0.0585s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_members` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `think_members` WHERE ( 1 ) ORDER BY posttime LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000384s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000530s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2015-09-01T08:46:04+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+
+[ 2015-09-01T08:46:04+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2015-09-01T08:46:06+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 308 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2015-09-01T08:46:07+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2015-09-01T08:46:07+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2015-09-01T08:55:53+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/save_member
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+ERR: 非法操作:save_member
+
+[ 2015-09-01T08:56:07+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 308 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2015-09-01T08:56:07+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+
+[ 2015-09-01T08:56:07+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+
+[ 2015-09-01T08:56:58+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'thinkphp.think_tasks' doesn't exist
+
+[ 2015-09-01T09:09:07+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1213 行.
+SQL: INSERT INTO `tasks` (`task_img_url`,`car_append`,`brand_introduce`,`collect_activity_intro`) VALUES ('','QQ、面包车、比亚迪、工具车除外','自然界“崇实之心、取意自然”。2014年上实城开集团秉承“人文心、品质度、国际观、健康态”四大理念，并以海派精工诚意缔造两河流域全新生态大盘自然界。自然界项目150万平米的全城优质资源集结样本，将囊括低密栖居洋房及瞰景高层（92-142㎡）等多元化卓越产品，在深刻了解了每个家庭成员的居住生活所需之后，研发出使用舒适度更好，空间布局更合理的产品。自然界以人性化、智能化、科技化的思量来精筑这座生态宜居的一生之城。&lt;br /&gt;','轩辕酒-龙窖9年 任务结束后需提供（西安甲友广告文化传播有限公司）200元加油票。 贴车地址：自然界项目部（浐灞大道浐河东200米浐灞大道北侧） 咨询电话：15399065262&lt;br /&gt;') [ RunTime:0.0480s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2015-09-01T09:09:08+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 308 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2015-09-01T09:09:08+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2015-09-01T09:09:08+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+
+[ 2015-09-01T09:11:32+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1213 行.
+SQL: INSERT INTO `tasks` (`task_img_url`,`car_append`,`brand_introduce`,`collect_activity_intro`) VALUES ('','QQ、面包车、比亚迪、工具车除外','&lt;strong&gt;&lt;span style=&quot;color:#333333;font-family:sans-serif;font-size:16px;line-height:20.7999992370605px;background-color:#F9F9F9;&quot;&gt;自然界“崇实之心、取意自然”。2014年上实城开集团秉承“人文心、品质度、国际观、健康态”四大理念，并以海派精工诚意缔造两河流域全新生态大盘自然界。自然界项目150万平米的全城优质资源集结样本，将囊括低密栖居洋房及瞰景高层（92-142㎡）等多元化卓越产品，在深刻了解了每个家庭成员的居住生活所需之后，研发出使用舒适度更好，空间布局更合理的产品。自然界以人性化、智能化、科技化的思量来精筑这座生态宜居的一生之城。&lt;/span&gt;&lt;/strong&gt;','&lt;strong&gt;&lt;span style=&quot;color:#333333;font-family:sans-serif;font-size:16px;line-height:20.7999992370605px;background-color:#F9F9F9;&quot;&gt;轩辕酒-龙窖9年 任务结束后需提供（西安甲友广告文化传播有限公司）200元加油票。 贴车地址：自然界项目部（浐灞大道浐河东200米浐灞大道北侧） 咨询电话：15399065262&lt;/span&gt;&lt;/strong&gt;') [ RunTime:0.0498s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2015-09-01T09:11:33+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 308 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2015-09-01T09:11:34+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2015-09-01T09:11:34+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+
+[ 2015-09-01T09:18:22+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 308 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2015-09-01T09:18:22+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+
+[ 2015-09-01T09:18:22+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+
+[ 2015-09-01T09:19:23+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 308 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2015-09-01T09:19:24+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+
+[ 2015-09-01T09:19:24+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+
+[ 2015-09-01T09:19:43+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 308 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2015-09-01T09:19:44+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2015-09-01T09:19:44+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+
+[ 2015-09-01T09:21:54+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 308 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2015-09-01T09:21:54+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+
+[ 2015-09-01T09:21:54+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002337s ]
+
+[ 2015-09-01T09:24:22+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1213 行.
+SQL: INSERT INTO `tasks` (`task_name`,`task_img_url`,`task_start_time`,`task_end_time`,`period`,`task_car_num`,`car_color`,`task_money`,`task_jifeng`,`money_distribute`,`car_append`,`brand_introduce`,`collect_activity_intro`) VALUES ('任务标题','__Public__/xiuxiu/55e4fe02854df.jpg','2015','2015','2周','50','白色','758元','5','200元现金+2瓶轩辕酒-龙窖9年（288元/瓶）','QQ、面包车、比亚迪、工具车除外','&lt;strong&gt;&lt;span style=&quot;color:#333333;font-family:sans-serif;font-size:16px;line-height:20.7999992370605px;background-color:#F9F9F9;&quot;&gt;自然界“崇实之心、取意自然”。2014年上实城开集团秉承“人文心、品质度、国际观、健康态”四大理念，并以海派精工诚意缔造两河流域全新生态大盘自然界。自然界项目150万平米的全城优质资源集结样本，将囊括低密栖居洋房及瞰景高层（92-142㎡）等多元化卓越产品，在深刻了解了每个家庭成员的居住生活所需之后，研发出使用舒适度更好，空间布局更合理的产品。自然界以人性化、智能化、科技化的思量来精筑这座生态宜居的一生之城。&lt;/span&gt;&lt;/strong&gt;','&lt;strong&gt;&lt;span style=&quot;color:#333333;font-family:sans-serif;font-size:16px;line-height:20.7999992370605px;background-color:#F9F9F9;&quot;&gt;轩辕酒-龙窖9年 任务结束后需提供（西安甲友广告文化传播有限公司）200元加油票。 贴车地址：自然界项目部（浐灞大道浐河东200米浐灞大道北侧） 咨询电话：15399065262&lt;/span&gt;&lt;/strong&gt;') [ RunTime:0.0396s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2015-09-01T09:24:23+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 308 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2015-09-01T09:24:24+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+
+[ 2015-09-01T09:24:24+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+
+[ 2015-09-01T09:27:46+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+
+[ 2015-09-01T09:30:57+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 308 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2015-09-01T09:30:57+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+
+[ 2015-09-01T09:30:57+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2015-09-01T09:31:15+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1213 行.
+SQL: INSERT INTO `tasks` (`task_name`,`task_img_url`,`task_start_time`,`task_end_time`,`period`,`task_car_num`,`car_color`,`task_money`,`task_jifeng`,`money_distribute`,`car_append`,`brand_introduce`,`collect_activity_intro`,`task_posttime`) VALUES ('任务标题','__Public__/xiuxiu/55e4ff03deaf6.jpg','2015','2015','2周','50','白色','758元','5','200元现金+2瓶轩辕酒-龙窖9年（288元/瓶）','QQ、面包车、比亚迪、工具车除外','&lt;strong&gt;&lt;span style=&quot;color:#333333;font-family:sans-serif;font-size:16px;line-height:20.7999992370605px;background-color:#F9F9F9;&quot;&gt;自然界“崇实之心、取意自然”。2014年上实城开集团秉承“人文心、品质度、国际观、健康态”四大理念，并以海派精工诚意缔造两河流域全新生态大盘自然界。自然界项目150万平米的全城优质资源集结样本，将囊括低密栖居洋房及瞰景高层（92-142㎡）等多元化卓越产品，在深刻了解了每个家庭成员的居住生活所需之后，研发出使用舒适度更好，空间布局更合理的产品。自然界以人性化、智能化、科技化的思量来精筑这座生态宜居的一生之城。&lt;/span&gt;&lt;/strong&gt;','&lt;strong&gt;&lt;span style=&quot;color:#333333;font-family:sans-serif;font-size:16px;line-height:20.7999992370605px;background-color:#F9F9F9;&quot;&gt;轩辕酒-龙窖9年 任务结束后需提供（西安甲友广告文化传播有限公司）200元加油票。 贴车地址：自然界项目部（浐灞大道浐河东200米浐灞大道北侧） 咨询电话：15399065262&lt;/span&gt;&lt;/strong&gt;','1441071075') [ RunTime:0.0402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001299s ]
+
+[ 2015-09-01T09:31:16+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 308 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2015-09-01T09:31:17+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+
+[ 2015-09-01T09:31:17+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+
+[ 2015-09-01T09:40:15+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 308 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2015-09-01T09:40:15+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2015-09-01T09:40:15+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2015-09-01T09:42:03+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shihai.members' doesn't exist
+
+[ 2015-09-01T09:43:46+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_info` WHERE ( 1 ) ORDER BY posttime LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2015-09-01T09:43:46+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2015-09-01T09:43:46+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2015-09-01T09:44:05+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_info` WHERE ( 1 ) ORDER BY posttime LIMIT 10,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2015-09-01T09:44:05+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+
+[ 2015-09-01T09:44:05+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2015-09-01T09:44:08+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_info` WHERE ( 1 ) ORDER BY posttime LIMIT 20,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2015-09-01T09:44:08+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+
+[ 2015-09-01T09:44:08+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+
+[ 2015-09-01T09:44:26+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_info` WHERE ( 1 ) ORDER BY posttime LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2015-09-01T09:44:26+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2015-09-01T09:44:26+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+
+[ 2015-09-01T09:44:45+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 308 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 316 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2015-09-01T09:44:46+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+
+[ 2015-09-01T09:44:46+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2015-09-01T10:00:42+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1213 行.
+SQL: INSERT INTO `tasks` (`task_name`,`task_img_url`,`task_start_time`,`task_end_time`,`period`,`task_car_num`,`car_color`,`task_money`,`task_jifeng`,`money_distribute`,`car_append`,`brand_introduce`,`collect_activity_intro`,`task_posttime`) VALUES ('任务标题','__Public__/xiuxiu/55e50532e2062.jpg','2015','2015','2周','50','白色','758元','5','200元现金+2瓶轩辕酒-龙窖9年（288元/瓶）','QQ、面包车、比亚迪、工具车除外','&lt;strong&gt;&lt;span style=&quot;color:#333333;font-family:sans-serif;font-size:16px;line-height:20.7999992370605px;background-color:#F9F9F9;&quot;&gt;自然界“崇实之心、取意自然”。2014年上实城开集团秉承“人文心、品质度、国际观、健康态”四大理念，并以海派精工诚意缔造两河流域全新生态大盘自然界。自然界项目150万平米的全城优质资源集结样本，将囊括低密栖居洋房及瞰景高层（92-142㎡）等多元化卓越产品，在深刻了解了每个家庭成员的居住生活所需之后，研发出使用舒适度更好，空间布局更合理的产品。自然界以人性化、智能化、科技化的思量来精筑这座生态宜居的一生之城。&lt;/span&gt;&lt;/strong&gt;','&lt;strong&gt;&lt;span style=&quot;color:#333333;font-family:sans-serif;font-size:16px;line-height:20.7999992370605px;background-color:#F9F9F9;&quot;&gt;轩辕酒-龙窖9年 任务结束后需提供（西安甲友广告文化传播有限公司）200元加油票。 贴车地址：自然界项目部（浐灞大道浐河东200米浐灞大道北侧） 咨询电话：15399065262&lt;/span&gt;&lt;/strong&gt;','1441072842') [ RunTime:0.0720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001414s ]
+
+[ 2015-09-01T10:00:56+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1213 行.
+SQL: INSERT INTO `tasks` (`task_name`,`task_img_url`,`task_start_time`,`task_end_time`,`period`,`task_car_num`,`car_color`,`task_money`,`task_jifeng`,`money_distribute`,`car_append`,`brand_introduce`,`collect_activity_intro`,`task_posttime`) VALUES ('任务标题','__Public__/xiuxiu/55e50532e2062.jpg','2015','2015','2周','50','白色','758元','5','200元现金+2瓶轩辕酒-龙窖9年（288元/瓶）','QQ、面包车、比亚迪、工具车除外','&lt;strong&gt;&lt;span style=&quot;color:#333333;font-family:sans-serif;font-size:16px;line-height:20.7999992370605px;background-color:#F9F9F9;&quot;&gt;自然界“崇实之心、取意自然”。2014年上实城开集团秉承“人文心、品质度、国际观、健康态”四大理念，并以海派精工诚意缔造两河流域全新生态大盘自然界。自然界项目150万平米的全城优质资源集结样本，将囊括低密栖居洋房及瞰景高层（92-142㎡）等多元化卓越产品，在深刻了解了每个家庭成员的居住生活所需之后，研发出使用舒适度更好，空间布局更合理的产品。自然界以人性化、智能化、科技化的思量来精筑这座生态宜居的一生之城。&lt;/span&gt;&lt;/strong&gt;','&lt;strong&gt;&lt;span style=&quot;color:#333333;font-family:sans-serif;font-size:16px;line-height:20.7999992370605px;background-color:#F9F9F9;&quot;&gt;轩辕酒-龙窖9年 任务结束后需提供（西安甲友广告文化传播有限公司）200元加油票。 贴车地址：自然界项目部（浐灞大道浐河东200米浐灞大道北侧） 咨询电话：15399065262&lt;/span&gt;&lt;/strong&gt;','1441072856') [ RunTime:0.0390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2015-09-01T11:45:08+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_info` WHERE ( 1 ) ORDER BY posttime LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2015-09-01T11:45:08+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+
+[ 2015-09-01T11:45:08+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+
+[ 2015-09-01T11:46:23+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0004s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'posttime' in 'order clause'
+
+[ 2015-09-01T11:46:39+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 318 行.
+NOTIC: [8] Undefined index: carnumber D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 319 行.
+NOTIC: [8] Undefined index: cartype D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 320 行.
+NOTIC: [8] Undefined index: mobile D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 321 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 318 行.
+NOTIC: [8] Undefined index: carnumber D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 319 行.
+NOTIC: [8] Undefined index: cartype D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 320 行.
+NOTIC: [8] Undefined index: mobile D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 321 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 318 行.
+NOTIC: [8] Undefined index: carnumber D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 319 行.
+NOTIC: [8] Undefined index: cartype D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 320 行.
+NOTIC: [8] Undefined index: mobile D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 321 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 318 行.
+NOTIC: [8] Undefined index: carnumber D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 319 行.
+NOTIC: [8] Undefined index: cartype D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 320 行.
+NOTIC: [8] Undefined index: mobile D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 321 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 318 行.
+NOTIC: [8] Undefined index: carnumber D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 319 行.
+NOTIC: [8] Undefined index: cartype D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 320 行.
+NOTIC: [8] Undefined index: mobile D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 321 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 318 行.
+NOTIC: [8] Undefined index: carnumber D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 319 行.
+NOTIC: [8] Undefined index: cartype D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 320 行.
+NOTIC: [8] Undefined index: mobile D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 321 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 318 行.
+NOTIC: [8] Undefined index: carnumber D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 319 行.
+NOTIC: [8] Undefined index: cartype D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 320 行.
+NOTIC: [8] Undefined index: mobile D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 321 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 318 行.
+NOTIC: [8] Undefined index: carnumber D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 319 行.
+NOTIC: [8] Undefined index: cartype D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 320 行.
+NOTIC: [8] Undefined index: mobile D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 321 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 318 行.
+NOTIC: [8] Undefined index: carnumber D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 319 行.
+NOTIC: [8] Undefined index: cartype D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 320 行.
+NOTIC: [8] Undefined index: mobile D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 321 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 318 行.
+NOTIC: [8] Undefined index: carnumber D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 319 行.
+NOTIC: [8] Undefined index: cartype D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 320 行.
+NOTIC: [8] Undefined index: mobile D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 321 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2015-09-01T11:46:40+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+
+[ 2015-09-01T11:46:40+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+
+[ 2015-09-01T11:46:45+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime LIMIT 10,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 318 行.
+NOTIC: [8] Undefined index: carnumber D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 319 行.
+NOTIC: [8] Undefined index: cartype D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 320 行.
+NOTIC: [8] Undefined index: mobile D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 321 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 318 行.
+NOTIC: [8] Undefined index: carnumber D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 319 行.
+NOTIC: [8] Undefined index: cartype D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 320 行.
+NOTIC: [8] Undefined index: mobile D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 321 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 318 行.
+NOTIC: [8] Undefined index: carnumber D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 319 行.
+NOTIC: [8] Undefined index: cartype D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 320 行.
+NOTIC: [8] Undefined index: mobile D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 321 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 318 行.
+NOTIC: [8] Undefined index: carnumber D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 319 行.
+NOTIC: [8] Undefined index: cartype D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 320 行.
+NOTIC: [8] Undefined index: mobile D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 321 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 318 行.
+NOTIC: [8] Undefined index: carnumber D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 319 行.
+NOTIC: [8] Undefined index: cartype D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 320 行.
+NOTIC: [8] Undefined index: mobile D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 321 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 318 行.
+NOTIC: [8] Undefined index: carnumber D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 319 行.
+NOTIC: [8] Undefined index: cartype D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 320 行.
+NOTIC: [8] Undefined index: mobile D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 321 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 318 行.
+NOTIC: [8] Undefined index: carnumber D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 319 行.
+NOTIC: [8] Undefined index: cartype D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 320 行.
+NOTIC: [8] Undefined index: mobile D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 321 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 318 行.
+NOTIC: [8] Undefined index: carnumber D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 319 行.
+NOTIC: [8] Undefined index: cartype D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 320 行.
+NOTIC: [8] Undefined index: mobile D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 321 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 318 行.
+NOTIC: [8] Undefined index: carnumber D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 319 行.
+NOTIC: [8] Undefined index: cartype D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 320 行.
+NOTIC: [8] Undefined index: mobile D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 321 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 318 行.
+NOTIC: [8] Undefined index: carnumber D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 319 行.
+NOTIC: [8] Undefined index: cartype D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 320 行.
+NOTIC: [8] Undefined index: mobile D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\ef8368bcb55887278b31745283749320.php 第 321 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2015-09-01T11:46:45+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+
+[ 2015-09-01T11:46:45+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+
+[ 2015-09-01T11:49:53+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime LIMIT 10,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2015-09-01T11:49:54+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2015-09-01T11:49:54+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+
+[ 2015-09-01T11:50:04+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime LIMIT 30,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2015-09-01T11:50:07+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000403s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000476s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2015-09-01T11:52:10+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001624s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1213 行.
+SQL: INSERT INTO `tasks` (`task_name`,`task_img_url`,`task_start_time`,`task_end_time`,`period`,`task_car_num`,`car_color`,`task_money`,`task_jifeng`,`money_distribute`,`car_append`,`brand_introduce`,`collect_activity_intro`,`task_posttime`) VALUES ('任务标题111','__Public__/xiuxiu/55e5208aa8c3e.jpg','2015','2015','3周','100','黑色','900元','5','200元现金+2瓶轩辕酒-龙窖9年（288元/瓶）','QQ、面包车、比亚迪、工具车除外','&lt;span style=&quot;color:#333333;font-family:sans-serif;font-size:16px;line-height:20.7999992370605px;background-color:#F9F9F9;&quot;&gt;自然界“崇实之心、取意自然”。2014年上实城开集团秉承“人文心、品质度、国际观、健康态”四大理念，并以海派精工诚意缔造两河流域全新生态大盘自然界。自然界项目150万平米的全城优质资源集结样本，将囊括低密栖居洋房及瞰景高层（92-142㎡）等多元化卓越产品，在深刻了解了每个家庭成员的居住生活所需之后，研发出使用舒适度更好，空间布局更合理的产品。自然界以人性化、智能化、科技化的思量来精筑这座生态宜居的一生之城。&lt;/span&gt;&lt;br /&gt;','&lt;strong&gt;&lt;span style=&quot;color:#333333;font-family:sans-serif;font-size:16px;line-height:20.7999992370605px;background-color:#F9F9F9;&quot;&gt;轩辕酒-龙窖9年 任务结束后需提供（西安甲友广告文化传播有限公司）200元加油票。 贴车地址：自然界项目部（浐灞大道浐河东200米浐灞大道北侧） 咨询电话：15399065262&lt;/span&gt;&lt;/strong&gt;','1441079530') [ RunTime:0.0400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2015-09-01T11:52:17+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2015-09-01T11:52:17+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+
+[ 2015-09-01T11:52:17+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2015-09-01T11:52:37+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2015-09-01T11:52:38+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+
+[ 2015-09-01T11:52:38+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+
+[ 2015-09-01T11:53:15+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime LIMIT 20,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2015-09-01T11:53:47+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2015-09-01T11:53:47+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2015-09-01T11:53:47+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2015-09-01T11:58:29+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2015-09-01T11:58:30+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2015-09-01T11:58:30+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2015-09-01T11:59:13+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_info` WHERE ( 1 ) ORDER BY posttime LIMIT 30,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000435s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2015-09-01T11:59:16+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_info` WHERE ( 1 ) ORDER BY posttime LIMIT 40,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2015-09-01T14:05:02+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2015-09-01T14:05:03+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Login/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2015-09-01T14:05:03+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Login/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2015-09-01T14:05:05+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Login/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shihai.user' doesn't exist
+
+[ 2015-09-01T14:09:53+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Login/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001577s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE ( username = 'ruby97' AND password = '405958c9e0888f6ddc6221f90576490c' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-09-01T14:09:53+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_info` WHERE ( 1 ) ORDER BY posttime LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2015-09-01T14:09:54+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2015-09-01T14:09:54+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+
+[ 2015-09-01T14:09:58+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2015-09-01T14:09:58+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+
+[ 2015-09-01T14:09:58+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2015-09-01T14:10:03+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 10,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2015-09-01T14:10:03+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2015-09-01T14:10:03+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+
+[ 2015-09-01T14:10:05+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2015-09-01T14:10:06+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2015-09-01T14:10:06+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2015-09-01T14:10:12+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 10,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2015-09-01T14:10:12+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2015-09-01T14:10:12+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+
+[ 2015-09-01T14:10:14+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2015-09-01T14:10:14+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2015-09-01T14:10:14+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2015-09-01T14:10:17+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 20,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2015-09-01T14:10:17+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+
+[ 2015-09-01T14:10:17+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+
+[ 2015-09-01T14:10:19+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 30,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2015-09-01T14:10:19+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2015-09-01T14:10:19+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+
+[ 2015-09-01T14:10:21+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2015-09-01T14:10:22+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+
+[ 2015-09-01T14:10:22+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2015-09-01T14:11:00+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1213 行.
+SQL: INSERT INTO `tasks` (`task_name`,`task_img_url`,`task_start_time`,`task_end_time`,`period`,`task_car_num`,`car_color`,`task_money`,`task_jifeng`,`money_distribute`,`car_append`,`brand_introduce`,`collect_activity_intro`,`task_posttime`) VALUES ('任务标题22','','2015','2015','3周','100','黑色','900元','5','200元现金+2瓶轩辕酒-龙窖9年（288元/瓶）','QQ、面包车、比亚迪、工具车除外','&lt;strong&gt;&lt;span style=&quot;color:#555555;font-family:Arial, Helvetica, sans-serif;font-size:13px;font-weight:bold;line-height:20.7999992370605px;background-color:#FFFFFF;&quot;&gt;商家品牌介绍&lt;/span&gt;&lt;/strong&gt;','&lt;strong&gt;&lt;span style=&quot;color:#555555;font-family:Arial, Helvetica, sans-serif;font-size:13px;font-weight:bold;line-height:20.7999992370605px;background-color:#FFFFFF;&quot;&gt;征集活动介绍&lt;/span&gt;&lt;/strong&gt;','1441087860') [ RunTime:0.0506s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2015-09-01T14:11:01+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2015-09-01T14:11:01+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+
+[ 2015-09-01T14:11:01+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2015-09-01T14:11:06+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 10,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2015-09-01T14:11:06+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2015-09-01T14:11:06+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+
+[ 2015-09-01T14:11:08+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2015-09-01T14:11:08+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2015-09-01T14:11:08+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+
+[ 2015-09-01T14:11:18+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 20,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2015-09-01T14:11:18+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2015-09-01T14:11:18+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2015-09-01T14:11:21+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2015-09-01T14:11:21+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+
+[ 2015-09-01T14:11:21+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+
+[ 2015-09-01T14:17:06+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/exit_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+
+[ 2015-09-01T14:17:06+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2015-09-01T14:17:06+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/login/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+
+[ 2015-09-01T14:17:06+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/login/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+
+[ 2015-09-01T14:17:09+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Login/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `user` WHERE ( username = 'ruby97' AND password = '405958c9e0888f6ddc6221f90576490c' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-09-01T14:17:09+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_info` WHERE ( 1 ) ORDER BY posttime LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2015-09-01T14:17:09+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2015-09-01T14:17:09+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2015-09-01T14:17:12+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2015-09-01T14:17:13+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2015-09-01T14:17:13+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2015-09-01T14:17:25+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 10,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2015-09-01T14:17:25+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2015-09-01T14:17:25+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2015-09-01T14:17:28+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2015-09-01T14:17:28+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+
+[ 2015-09-01T14:17:28+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2015-09-01T14:17:37+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+
+[ 2015-09-01T14:21:31+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_info` WHERE ( 1 ) ORDER BY posttime LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2015-09-01T14:21:31+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+
+[ 2015-09-01T14:21:31+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+
+[ 2015-09-01T14:21:39+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2015-09-01T14:21:39+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+
+[ 2015-09-01T14:21:39+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2015-09-01T14:22:58+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_info` WHERE ( 1 ) ORDER BY posttime LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2015-09-01T14:22:58+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+
+[ 2015-09-01T14:22:58+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+
+[ 2015-09-01T14:23:01+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2015-09-01T14:23:01+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+
+[ 2015-09-01T14:23:01+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2015-09-01T15:47:38+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_info` WHERE ( 1 ) ORDER BY posttime LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2015-09-01T15:47:38+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2015-09-01T15:47:38+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+
+[ 2015-09-01T17:22:28+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018492s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.2446s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0623s ]
+SQL: SELECT * FROM `user_info` WHERE ( 1 ) ORDER BY posttime LIMIT 10,10   [ RunTime:0.0439s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000374s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000532s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.207208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.207452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.061897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.062044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.057639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.057785s ]
+
+[ 2015-09-01T17:22:30+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+
+[ 2015-09-01T17:22:30+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+
+[ 2015-09-01T17:22:33+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_info` WHERE ( 1 ) ORDER BY posttime LIMIT 0,10   [ RunTime:0.0294s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2015-09-01T17:22:34+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+
+[ 2015-09-01T17:22:34+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2015-09-01T17:22:35+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_info` WHERE ( 1 ) ORDER BY posttime LIMIT 10,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2015-09-01T17:22:36+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+
+[ 2015-09-01T17:22:36+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+
+[ 2015-09-01T17:22:44+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.1030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0501s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 0,10   [ RunTime:0.0891s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001426s ]
+
+[ 2015-09-01T17:22:44+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2015-09-01T17:22:44+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+

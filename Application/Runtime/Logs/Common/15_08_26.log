@@ -1,0 +1,36 @@
+[ 2015-08-26T08:25:01+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/scripts/jquery.my.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-26T08:25:49+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/scripts/jquery.my.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-26T08:26:14+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/scripts/jquery.my.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-26T08:26:24+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/scripts/jquery.my.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-26T16:34:46+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/scripts/jquery.ui.core.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-26T16:34:46+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/scripts/jquery-1.11.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002277s ]
+ERR: 无法加载模块:Public
+

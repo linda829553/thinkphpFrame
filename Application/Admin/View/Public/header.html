@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Simpla Admin</title>
+<link rel="stylesheet" href="__PUBLIC__/Admin/resources/css/reset.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="__PUBLIC__/Admin/resources/css/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="__PUBLIC__/Admin/resources/css/invalid.css" type="text/css" media="screen" />	
+<link rel="stylesheet" href="__PUBLIC__/Admin/resources/css/jquery-ui.min.css" type="text/css" media="screen" />	
+<script type="text/javascript" src="__PUBLIC__/Admin/resources/scripts/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/resources/scripts/simpla.jquery.configuration.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/resources/scripts/facebox.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/resources/scripts/jquery-ui.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Admin/resources/scripts/my.js"></script>
+<script charset="utf-8" src="__ROOT__/editor/kindeditor.js"></script>
+<script charset="utf-8" src="__ROOT__/editor/lang/zh_CN.js"></script>
+<script>
+        KindEditor.ready(function(K) {
+                window.editor = K.create('#editor_id');
+                window.editor = K.create('#editor_id1');
+        });
+
+  //       var options = {
+  //       cssPath : '/css/index.css',
+  //       filterMode : true
+		// };
+		// var editor = K.create('textarea[name="content"]', options);
+</script>
+
+<script src="http://open.web.meitu.com/sources/xiuxiu.js" type="text/javascript"></script>
+<script type="text/javascript">
+window.onload=function(){
+  /*第1个参数是加载编辑器div容器，第2个参数是编辑器类型，第3个参数是div容器宽，第4个参数是div容器高*/
+  xiuxiu.embedSWF("altContent",1,"100%","100%");
+  //修改为您自己的图片上传接口
+  // xiuxiu.setUploadURL("__PUBLIC__/xiuxiu/image_upload.php");
+  xiuxiu.setUploadURL("http://localhost/myProject/thinkphpFrame/Public/xiuxiu/image_upload.php");
+  xiuxiu.setUploadType(1);
+  // xiuxiu.setUploadDataFieldName("upload_file");
+  // xiuxiu.onInit = function ()
+  // {
+  //   xiuxiu.loadPhoto("http://open.web.meitu.com/sources/images/1.jpg");//修改为要处理的图片url
+  // }
+  xiuxiu.onUploadResponse = function (data) {
+    // console.log(data);
+    $("#task_img_url").val(data);
+    $("#layerCut").css("display","none");  // 上传成功后关闭窗口
+    $("input[type='button']").parent().find("span").css("display","inline");
+  }
+
+  xiuxiu.onClose = function(){
+    $("#layerCut").css("display","none");
+  }
+}
+</script>
+</head>

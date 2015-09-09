@@ -1,0 +1,174 @@
+[ 2015-08-27T09:15:42+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:15:48+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:15:48+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:15:48+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-icons_ffffff_256x240.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:15:48+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:15:50+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:15:52+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-bg_glass_65_ffffff_1x400.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:15:59+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:16:03+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-icons_ffffff_256x240.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:16:03+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:16:03+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:16:03+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:16:03+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:16:39+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-bg_glass_65_ffffff_1x400.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:17:35+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:17:37+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:17:37+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-icons_ffffff_256x240.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:17:37+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:17:37+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:17:37+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:18:11+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-bg_glass_65_ffffff_1x400.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:24:29+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-icons_ef8c08_256x240.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:25:50+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:25:52+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:25:52+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-icons_ffffff_256x240.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:25:52+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:25:52+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:25:54+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-27T09:25:54+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Admin/resources/css/images/ui-icons_ef8c08_256x240.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+ERR: 无法加载模块:Public
+

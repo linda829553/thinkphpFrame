@@ -1,0 +1,11 @@
+[ 2015-08-29T14:04:25+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.034616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.034847s ]
+
