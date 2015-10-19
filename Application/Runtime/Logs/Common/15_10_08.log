@@ -1,0 +1,36 @@
+[ 2015-10-08T08:16:06+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-10-08T14:27:10+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-10-08T14:54:31+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Home/images/tel_zc.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-08T14:54:32+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Home/images/tel_zc.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-08T14:54:59+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Home/images/tel_zc.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+ERR: 无法加载模块:Public
+
+[ 2015-10-08T14:54:59+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/Public/Home/images/tel_zc.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+ERR: 无法加载模块:Public
+

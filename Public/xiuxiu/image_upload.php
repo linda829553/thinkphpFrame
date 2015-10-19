@@ -15,7 +15,7 @@ if ( isset( $postdata ) && strlen( $postdata ) > 0 ) {
 	fwrite( $handle, $postdata );
 	fclose( $handle );
 	if ( is_file( $file_path ) ) {
-		$save_db_path = "__Public__/xiuxiu/" . $filename;
+		$save_db_path = "xiuxiu/" . $filename;
 		echo addslashes($save_db_path);
 		// echo $filename;
 		exit ();

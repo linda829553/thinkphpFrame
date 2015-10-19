@@ -61,7 +61,7 @@
 				
 				<div class="content-box-content">
 					
-					<div class="tab-content default-tab" id="tab1"> <!-- This is the target div. id must match the href of this div's tab -->
+					<block name="list"><div class="tab-content default-tab" id="tab1"></block> <!-- This is the target div. id must match the href of this div's tab -->
 						
 						<div class="notification attention png_bg">
 							<a href="#" class="close"><img src="__PUBLIC__/Admin/resources/images/icons/cross_grey_small.png" title="Close this notification" alt="close" /></a>
@@ -111,7 +111,7 @@
 								<volist name="list" id="vo">
 								<tr>
 									<td><input type="checkbox" /></td>
-									<td>{$vo.task_name|substr=0,72}</td>
+									<td><a href="__CONTROLLER__/show_baoming/id/{$vo.id}">{$vo.task_name|substr=0,72}</a></td>
 									<td>{$vo.task_start_time|date='Y-m-d',###}--{$vo.task_end_time|date='Y-m-d',###}</td>
 									<td>{$vo.period}</td>
 									<td>{$vo.task_car_num}</td>
@@ -133,7 +133,7 @@
 						
 					</div> <!-- End #tab1 -->
 					
-					<div class="tab-content" id="tab2">
+					<block name="form"><div class="tab-content" id="tab2"></block>
 					
 						<form action="__CONTROLLER__/insert" method="post" name="task_form">
 							
@@ -167,6 +167,11 @@
 								</p>
 
 								<p>
+									<label>报名数量</label>
+									<input class="text-input" type="text" id="have_cars" name="have_cars" /> &nbsp;辆
+								</p>
+
+								<p>
 									<label>颜色</label>
 									<input class="text-input" type="text" id="car_color" name="car_color" /> 
 								</p>
@@ -193,7 +198,7 @@
 
 								
 								<p>
-									<label>商家品牌介绍</label>
+									<label>商家品牌介绍<span style="color:red">(*注意图片上传大小为640x480)</span></label>
 									<textarea id="editor_id" name="brand_introduce" style="width:700px;height:300px;">
 									&lt;strong&gt;HTML内容&lt;/strong&gt;
 									</textarea>
@@ -201,7 +206,7 @@
 
 
 								<p>
-									<label>征集活动介绍</label>
+									<label>征集活动介绍<span style="color:red">(*注意图片上传大小为640x480)</span></label>
 									<textarea id="editor_id1" name="collect_activity_intro" style="width:700px;height:300px;">
 									&lt;strong&gt;HTML内容&lt;/strong&gt;
 									</textarea>

@@ -1,0 +1,1409 @@
+[ 2015-10-19T08:30:31+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+
+[ 2015-10-19T08:30:31+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000927s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001299s ]
+
+[ 2015-10-19T08:30:33+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/login/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2015-10-19T08:30:33+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/login/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+
+[ 2015-10-19T08:30:41+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Login/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001618s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0432s ]
+SQL: SELECT * FROM `user` WHERE ( username = 'aaaaaa' AND password = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-10-19T08:30:41+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0343s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user_info` WHERE ( 1 ) ORDER BY posttime desc LIMIT 0,10   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2015-10-19T08:30:43+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2015-10-19T08:30:43+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+
+[ 2015-10-19T08:30:47+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2015-10-19T08:30:47+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+
+[ 2015-10-19T08:30:47+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+
+[ 2015-10-19T08:30:58+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2015-10-19T08:30:59+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2015-10-19T08:30:59+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+
+[ 2015-10-19T08:31:12+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `news` WHERE ( id=35 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 323 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2015-10-19T08:31:13+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+
+[ 2015-10-19T08:31:13+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+
+[ 2015-10-19T08:32:00+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1213 行.
+SQL: UPDATE `news` SET `name`='水上乐园',`news_img_url`='xiuxiu/5621c65c0825b.jpg',`cat_id`='4',`content`='&lt;p&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150720/20150720163038_964.jpg&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	宝鸡水上乐园位于渭河公园的西区，投资900多万元，园内设有儿童池、造浪池、标准池、绿茵带、更衣室、洗浴室、休息亭等，可一次容纳6000余人同时游玩；是西北最大的综合性水上乐园，大海仿真造浪、冲浪、滑梯、卡通智能儿童嬉水池！你想玩的一应俱全，应有尽有！
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150720/20150720163239_36.jpg&quot; /&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span style=&quot;font-family:宋体, Tahoma, Verdana, Arial, sans-serif;font-size:14px;line-height:26px;&quot;&gt;宝鸡市水上乐园是宝鸡市一家规模巨大的水上乐园，园内设施齐全，环境优雅，是夏天避暑的首选之处。&lt;/span&gt;&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150720/20150720163314_898.jpg&quot; /&gt;&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150720/20150720163511_562.jpg&quot; /&gt;&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150720/20150720163528_240.jpg&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;代言品牌：水上乐园&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;代言时间：2015年7月11日——7月12日&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;代言数量：30辆&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;代言周期：2天（共计4小时）&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;代言形式：巡游宣传。&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150718/20150718234218_960.jpg&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150718/20150718234239_8.jpg&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150718/20150718234311_118.jpg&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150718/20150718234334_558.jpg&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150718/20150718234352_154.jpg&quot; /&gt; 
+&lt;/p&gt;',`post_man`='admin',`post_time`='1445214720' WHERE `id` = 35 [ RunTime:0.0373s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2015-10-19T08:32:02+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `news` WHERE ( id=35 ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 323 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2015-10-19T08:32:02+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2015-10-19T08:32:02+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2015-10-19T08:33:28+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2015-10-19T08:33:28+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+
+[ 2015-10-19T08:33:28+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+
+[ 2015-10-19T08:33:35+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/29
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `news` WHERE ( id=29 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 323 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2015-10-19T08:33:36+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+
+[ 2015-10-19T08:33:36+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+
+[ 2015-10-19T08:34:13+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1213 行.
+SQL: UPDATE `news` SET `name`='陕西通天河国家森林公园',`news_img_url`='',`cat_id`='4',`content`='&lt;p class=&quot;MsoNormal&quot;&gt;
+	&lt;b&gt;国家AAAA级旅游景区&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot;&gt;
+	&lt;b&gt;陕西省21个标志性品牌旅游景区&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot;&gt;
+	&lt;b&gt;陕西省文明森林公园&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot;&gt;
+	&lt;b&gt;陕西省优秀平安景区&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot;&gt;
+	&lt;b&gt;神奇美丽的通天河欢迎你！——&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot;&gt;
+	&lt;b&gt;&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&quot;text-align:center;&quot;&gt;
+	&lt;b&gt;陕西通天河国家森林公园简介&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32.15pt;&quot;&gt;
+	&lt;b&gt;&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	陕西通天河国家森林公园是国家4A级旅游景区，位于秦岭南麓宝鸡市中国最美小城-凤县西北境内,&amp;nbsp;嘉陵江的一级支流小峪河上游，南北长约13公里，东西宽约11公里。2002年建园,同年被批准为国家森林公园,隶属宝鸡市辛家山林业局管理，是一处以自然生态和人文景观为主的，以峰谷交错、绝壁林立与飞瀑流泉、清醒幽潭为特色，及美学价值与科学价值于一身的综合性风景名胜区。&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817114117_131.jpg&quot; /&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	莲花山
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	公园距宝鸡市95公里，距212省道30公里，距凤县县城45公里。公园总面积5235公顷,森林覆盖率96.8%,森林植物1800多种，其中高等植物1500余种，低等植物300多种，生物多样性十分丰富；公园动物种类繁多，有280多种，常见的哺乳动物主要有：野猪、獾、狐狸、黑熊、草兔、岩羊、林麝等，鸟类主要有红腹角雉、金鸡、猫头鹰、大山雀、啄木鸟等，两栖爬行类有大鲵、中国林蛙和多种蛇类。属国家一级保护的野生动物有羚牛、金钱豹、林麝；二级保护的动物有：野猪、金猫黑熊、金鸡、大鲵等。动植物种类繁多,是秦岭山脉一处天然的动植物宝库。公园公园地处秦岭西部，地势西北高，东南低，最高海拔2738.7（透马驹），最低海拔1540米（西河庙）。公园气候具有北亚热带北缘向暖温带过渡的山地气候特征。气候特点表现为：垂直变化明显，小气候差异显著，光热条件不足，降水量在一年内分布不均，冬无严寒，夏无酷暑，气温日差较大。据凤县气象站秦岭观测点资料统计分析：七月平均气温22.7℃。园内降水量主要集中在&amp;nbsp;7至9月，占全年降水量的50%。公园大部分区域的海拔在2000米以上，比附近的客源城市如宝鸡、咸阳、西安、汉中等地的年平均温度普遍低7℃以上。森林公园内林海莽莽，溪流纵横，空气清晰无污染，气候湿润，是很好的避暑度假、休闲疗养之地。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817114200_43.jpg&quot; /&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	莲花湖
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	公园现已开发三大景区，即西河庙、莲花山和高山石林景区，50余处景点。园内的通天河贯穿景区南北，全长17公里，瀑布潭溪连环相扣，景观奇特；万亩原始云杉林，古木参天，气势恢宏；千亩高山野生杜鹃，花色多样，争奇斗艳。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817114312_869.jpg&quot; /&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	秋日仙女潭
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817114548_376.jpg&quot; /&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	高山石林
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	公园最有特色的自然景观属“高山石林”，面积2000余亩，形状各异，惟妙惟肖，有的如骏马奔腾，昂首扬蹄；有的似武士披甲，威武雄壮，可与张家界石林相媲美，享有“中国北方的石林，大西北之张家界”的美誉。通天河吸引人的不仅是原始生态的自然景观，更为吸引人的是唐朝高僧唐玄奘一千多年前西去印度取经经过这里留下的很多遗迹、传说和神话故事。相传《西游记》唐僧西天取经曾过往此地，园内晒经石、仙女潭、驮经神龟、莲花宝座等《西游记》系列景点又为通天河增添了许多神话和传奇彩色。&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817114351_858.jpg&quot; /&gt;&lt;b&gt;&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	通天河洗心池
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817114654_177.jpg&quot; /&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	碧水观音
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817114730_931.jpg&quot; /&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	氧吧长廊
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	公园开园10多年来，在上级各级部门领导的重视支持下，现已发展成为宝鸡地区一大知名景区，在西北地区享有一定的知名度。2009年跻身全省21个标志性品牌旅游景区， 同年被评为陕西省文明森林公园,2010荣获“陕西省平安优秀景区“称号，2011年被关中-天水旅游产业联盟授予“最适宜都市人自主休闲旅游景区”，2012年被陕西户外运动联盟评为“秦岭十大惊世美景”，2013年4月被批准为国家4A级旅游景区。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;景区内现建成宾馆四座，餐厅三座，大型停车场三处，已形成可同时接待&lt;/span&gt;&lt;span style=&quot;line-height:1.5;&quot;&gt;600&lt;/span&gt;&lt;span style=&quot;line-height:1.5;&quot;&gt;余人入住、&lt;/span&gt;&lt;span style=&quot;line-height:1.5;&quot;&gt;800&lt;/span&gt;&lt;span style=&quot;line-height:1.5;&quot;&gt;余人同时就餐、&lt;/span&gt;&lt;span style=&quot;line-height:1.5;&quot;&gt;1000&lt;/span&gt;&lt;span style=&quot;line-height:1.5;&quot;&gt;辆车停车的能力。餐厅可提供南北大菜、山珍野味、风味小吃。蒙古风情园内有烤全羊、烤肉、手抓羊肉等民族风味小吃。公园内新建成的多功能厅，可承办会议、开办培训班、举行舞会及大型节目演出等活动。&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;景区咨询电话：0917-4761888&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	代言品牌：陕西通天河国家森林公园
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	代言时间：2015年8月15日——8月16日
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	代言数量：30辆
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	代言周期：2天（共计6小时）
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	代言形式：巡游宣传。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817153948_597.jpg&quot; /&gt;&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817154026_215.jpg&quot; /&gt;&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817154012_726.jpg&quot; /&gt;&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817154051_484.jpg&quot; /&gt;&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817154141_317.jpg&quot; /&gt;&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817155558_412.jpg&quot; /&gt;&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817160019_344.jpg&quot; /&gt; 
+&lt;/p&gt;',`post_man`='admin',`post_time`='1445214853' WHERE `id` = 29 [ RunTime:0.0582s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2015-10-19T08:34:14+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/29
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `news` WHERE ( id=29 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 323 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2015-10-19T08:34:14+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+
+[ 2015-10-19T08:34:14+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2015-10-19T08:35:14+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1213 行.
+SQL: UPDATE `news` SET `name`='陕西通天河国家森林公园',`news_img_url`='',`cat_id`='4',`content`='&lt;p class=&quot;MsoNormal&quot;&gt;
+	&lt;b&gt;国家AAAA级旅游景区&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot;&gt;
+	&lt;b&gt;陕西省21个标志性品牌旅游景区&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot;&gt;
+	&lt;b&gt;陕西省文明森林公园&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot;&gt;
+	&lt;b&gt;陕西省优秀平安景区&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot;&gt;
+	&lt;b&gt;神奇美丽的通天河欢迎你！——&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot;&gt;
+	&lt;b&gt;&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&quot;text-align:center;&quot;&gt;
+	&lt;b&gt;陕西通天河国家森林公园简介&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32.15pt;&quot;&gt;
+	&lt;b&gt;&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	陕西通天河国家森林公园是国家4A级旅游景区，位于秦岭南麓宝鸡市中国最美小城-凤县西北境内,&amp;nbsp;嘉陵江的一级支流小峪河上游，南北长约13公里，东西宽约11公里。2002年建园,同年被批准为国家森林公园,隶属宝鸡市辛家山林业局管理，是一处以自然生态和人文景观为主的，以峰谷交错、绝壁林立与飞瀑流泉、清醒幽潭为特色，及美学价值与科学价值于一身的综合性风景名胜区。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817114117_131.jpg&quot; /&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	莲花山
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	公园距宝鸡市95公里，距212省道30公里，距凤县县城45公里。公园总面积5235公顷,森林覆盖率96.8%,森林植物1800多种，其中高等植物1500余种，低等植物300多种，生物多样性十分丰富；公园动物种类繁多，有280多种，常见的哺乳动物主要有：野猪、獾、狐狸、黑熊、草兔、岩羊、林麝等，鸟类主要有红腹角雉、金鸡、猫头鹰、大山雀、啄木鸟等，两栖爬行类有大鲵、中国林蛙和多种蛇类。属国家一级保护的野生动物有羚牛、金钱豹、林麝；二级保护的动物有：野猪、金猫黑熊、金鸡、大鲵等。动植物种类繁多,是秦岭山脉一处天然的动植物宝库。公园公园地处秦岭西部，地势西北高，东南低，最高海拔2738.7（透马驹），最低海拔1540米（西河庙）。公园气候具有北亚热带北缘向暖温带过渡的山地气候特征。气候特点表现为：垂直变化明显，小气候差异显著，光热条件不足，降水量在一年内分布不均，冬无严寒，夏无酷暑，气温日差较大。据凤县气象站秦岭观测点资料统计分析：七月平均气温22.7℃。园内降水量主要集中在&amp;nbsp;7至9月，占全年降水量的50%。公园大部分区域的海拔在2000米以上，比附近的客源城市如宝鸡、咸阳、西安、汉中等地的年平均温度普遍低7℃以上。森林公园内林海莽莽，溪流纵横，空气清晰无污染，气候湿润，是很好的避暑度假、休闲疗养之地。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817114200_43.jpg&quot; /&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	莲花湖
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	公园现已开发三大景区，即西河庙、莲花山和高山石林景区，50余处景点。园内的通天河贯穿景区南北，全长17公里，瀑布潭溪连环相扣，景观奇特；万亩原始云杉林，古木参天，气势恢宏；千亩高山野生杜鹃，花色多样，争奇斗艳。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817114312_869.jpg&quot; /&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	秋日仙女潭
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817114548_376.jpg&quot; /&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	高山石林
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	公园最有特色的自然景观属“高山石林”，面积2000余亩，形状各异，惟妙惟肖，有的如骏马奔腾，昂首扬蹄；有的似武士披甲，威武雄壮，可与张家界石林相媲美，享有“中国北方的石林，大西北之张家界”的美誉。通天河吸引人的不仅是原始生态的自然景观，更为吸引人的是唐朝高僧唐玄奘一千多年前西去印度取经经过这里留下的很多遗迹、传说和神话故事。相传《西游记》唐僧西天取经曾过往此地，园内晒经石、仙女潭、驮经神龟、莲花宝座等《西游记》系列景点又为通天河增添了许多神话和传奇彩色。&amp;nbsp;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817114351_858.jpg&quot; /&gt;&lt;b&gt;&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	通天河洗心池
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817114654_177.jpg&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	碧水观音
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817114730_931.jpg&quot; /&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	氧吧长廊
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	公园开园10多年来，在上级各级部门领导的重视支持下，现已发展成为宝鸡地区一大知名景区，在西北地区享有一定的知名度。2009年跻身全省21个标志性品牌旅游景区， 同年被评为陕西省文明森林公园,2010荣获“陕西省平安优秀景区“称号，2011年被关中-天水旅游产业联盟授予“最适宜都市人自主休闲旅游景区”，2012年被陕西户外运动联盟评为“秦岭十大惊世美景”，2013年4月被批准为国家4A级旅游景区。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;景区内现建成宾馆四座，餐厅三座，大型停车场三处，已形成可同时接待&lt;/span&gt;&lt;span style=&quot;line-height:1.5;&quot;&gt;600&lt;/span&gt;&lt;span style=&quot;line-height:1.5;&quot;&gt;余人入住、&lt;/span&gt;&lt;span style=&quot;line-height:1.5;&quot;&gt;800&lt;/span&gt;&lt;span style=&quot;line-height:1.5;&quot;&gt;余人同时就餐、&lt;/span&gt;&lt;span style=&quot;line-height:1.5;&quot;&gt;1000&lt;/span&gt;&lt;span style=&quot;line-height:1.5;&quot;&gt;辆车停车的能力。餐厅可提供南北大菜、山珍野味、风味小吃。蒙古风情园内有烤全羊、烤肉、手抓羊肉等民族风味小吃。公园内新建成的多功能厅，可承办会议、开办培训班、举行舞会及大型节目演出等活动。&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;景区咨询电话：0917-4761888&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	代言品牌：陕西通天河国家森林公园
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	代言时间：2015年8月15日——8月16日
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	代言数量：30辆
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	代言周期：2天（共计6小时）
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	代言形式：巡游宣传。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817153948_597.jpg&quot; /&gt;&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817154026_215.jpg&quot; /&gt;&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817154012_726.jpg&quot; /&gt;&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817154051_484.jpg&quot; /&gt;&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817154141_317.jpg&quot; /&gt;&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817155558_412.jpg&quot; /&gt;&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817160019_344.jpg&quot; /&gt; 
+&lt;/p&gt;',`post_man`='admin',`post_time`='1445214914' WHERE `id` = 29 [ RunTime:0.0461s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2015-10-19T08:35:15+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/29
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `news` WHERE ( id=29 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 323 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2015-10-19T08:35:18+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+
+[ 2015-10-19T08:35:18+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2015-10-19T08:36:35+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1213 行.
+SQL: UPDATE `news` SET `name`='陕西通天河国家森林公园',`news_img_url`='',`cat_id`='4',`content`='&lt;p class=&quot;MsoNormal&quot;&gt;
+	&lt;b&gt;国家AAAA级旅游景区&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot;&gt;
+	&lt;b&gt;陕西省21个标志性品牌旅游景区&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot;&gt;
+	&lt;b&gt;陕西省文明森林公园&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot;&gt;
+	&lt;b&gt;陕西省优秀平安景区&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot;&gt;
+	&lt;b&gt;神奇美丽的通天河欢迎你！——&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot;&gt;
+	&lt;b&gt;&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&quot;text-align:center;&quot;&gt;
+	&lt;b&gt;陕西通天河国家森林公园简介&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32.15pt;&quot;&gt;
+	&lt;b&gt;&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	陕西通天河国家森林公园是国家4A级旅游景区，位于秦岭南麓宝鸡市中国最美小城-凤县西北境内,&amp;nbsp;嘉陵江的一级支流小峪河上游，南北长约13公里，东西宽约11公里。2002年建园,同年被批准为国家森林公园,隶属宝鸡市辛家山林业局管理，是一处以自然生态和人文景观为主的，以峰谷交错、绝壁林立与飞瀑流泉、清醒幽潭为特色，及美学价值与科学价值于一身的综合性风景名胜区。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817114117_131.jpg&quot; /&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	莲花山
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	公园距宝鸡市95公里，距212省道30公里，距凤县县城45公里。公园总面积5235公顷,森林覆盖率96.8%,森林植物1800多种，其中高等植物1500余种，低等植物300多种，生物多样性十分丰富；公园动物种类繁多，有280多种，常见的哺乳动物主要有：野猪、獾、狐狸、黑熊、草兔、岩羊、林麝等，鸟类主要有红腹角雉、金鸡、猫头鹰、大山雀、啄木鸟等，两栖爬行类有大鲵、中国林蛙和多种蛇类。属国家一级保护的野生动物有羚牛、金钱豹、林麝；二级保护的动物有：野猪、金猫黑熊、金鸡、大鲵等。动植物种类繁多,是秦岭山脉一处天然的动植物宝库。公园公园地处秦岭西部，地势西北高，东南低，最高海拔2738.7（透马驹），最低海拔1540米（西河庙）。公园气候具有北亚热带北缘向暖温带过渡的山地气候特征。气候特点表现为：垂直变化明显，小气候差异显著，光热条件不足，降水量在一年内分布不均，冬无严寒，夏无酷暑，气温日差较大。据凤县气象站秦岭观测点资料统计分析：七月平均气温22.7℃。园内降水量主要集中在&amp;nbsp;7至9月，占全年降水量的50%。公园大部分区域的海拔在2000米以上，比附近的客源城市如宝鸡、咸阳、西安、汉中等地的年平均温度普遍低7℃以上。森林公园内林海莽莽，溪流纵横，空气清晰无污染，气候湿润，是很好的避暑度假、休闲疗养之地。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817114200_43.jpg&quot; /&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	莲花湖
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	公园现已开发三大景区，即西河庙、莲花山和高山石林景区，50余处景点。园内的通天河贯穿景区南北，全长17公里，瀑布潭溪连环相扣，景观奇特；万亩原始云杉林，古木参天，气势恢宏；千亩高山野生杜鹃，花色多样，争奇斗艳。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817114312_869.jpg&quot; /&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	秋日仙女潭
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817114548_376.jpg&quot; /&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	高山石林
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	公园最有特色的自然景观属“高山石林”，面积2000余亩，形状各异，惟妙惟肖，有的如骏马奔腾，昂首扬蹄；有的似武士披甲，威武雄壮，可与张家界石林相媲美，享有“中国北方的石林，大西北之张家界”的美誉。通天河吸引人的不仅是原始生态的自然景观，更为吸引人的是唐朝高僧唐玄奘一千多年前西去印度取经经过这里留下的很多遗迹、传说和神话故事。相传《西游记》唐僧西天取经曾过往此地，园内晒经石、仙女潭、驮经神龟、莲花宝座等《西游记》系列景点又为通天河增添了许多神话和传奇彩色。&amp;nbsp;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817114351_858.jpg&quot; /&gt;&lt;b&gt;&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	通天河洗心池
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817114654_177.jpg&quot; /&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	碧水观音
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817114730_931.jpg&quot; /&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	氧吧长廊
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	公园开园10多年来，在上级各级部门领导的重视支持下，现已发展成为宝鸡地区一大知名景区，在西北地区享有一定的知名度。2009年跻身全省21个标志性品牌旅游景区， 同年被评为陕西省文明森林公园,2010荣获“陕西省平安优秀景区“称号，2011年被关中-天水旅游产业联盟授予“最适宜都市人自主休闲旅游景区”，2012年被陕西户外运动联盟评为“秦岭十大惊世美景”，2013年4月被批准为国家4A级旅游景区。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;景区内现建成宾馆四座，餐厅三座，大型停车场三处，已形成可同时接待&lt;/span&gt;&lt;span style=&quot;line-height:1.5;&quot;&gt;600&lt;/span&gt;&lt;span style=&quot;line-height:1.5;&quot;&gt;余人入住、&lt;/span&gt;&lt;span style=&quot;line-height:1.5;&quot;&gt;800&lt;/span&gt;&lt;span style=&quot;line-height:1.5;&quot;&gt;余人同时就餐、&lt;/span&gt;&lt;span style=&quot;line-height:1.5;&quot;&gt;1000&lt;/span&gt;&lt;span style=&quot;line-height:1.5;&quot;&gt;辆车停车的能力。餐厅可提供南北大菜、山珍野味、风味小吃。蒙古风情园内有烤全羊、烤肉、手抓羊肉等民族风味小吃。公园内新建成的多功能厅，可承办会议、开办培训班、举行舞会及大型节目演出等活动。&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;景区咨询电话：0917-4761888&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	代言品牌：陕西通天河国家森林公园
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	代言时间：2015年8月15日——8月16日
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	代言数量：30辆
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	代言周期：2天（共计6小时）
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	代言形式：巡游宣传。
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817153948_597.jpg&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817154026_215.jpg&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817154012_726.jpg&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817154051_484.jpg&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817154141_317.jpg&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817155558_412.jpg&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent:32pt;&quot;&gt;
+	&lt;img src=&quot;http://cms.qy.u-kor.cn/upload/36237/contManage/20150817/20150817160019_344.jpg&quot; /&gt;
+&lt;/p&gt;',`post_man`='admin',`post_time`='1445214995' WHERE `id` = 29 [ RunTime:0.0411s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2015-10-19T08:36:36+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/29
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `news` WHERE ( id=29 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 323 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2015-10-19T08:36:36+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+
+[ 2015-10-19T08:36:36+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+
+[ 2015-10-19T08:39:19+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2015-10-19T08:39:20+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+
+[ 2015-10-19T08:39:20+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2015-10-19T08:40:12+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2015-10-19T08:40:12+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+
+[ 2015-10-19T08:40:12+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2015-10-19T08:40:15+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2015-10-19T08:40:15+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2015-10-19T08:40:15+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+
+[ 2015-10-19T10:56:24+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000436s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000573s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2015-10-19T10:56:29+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2015-10-19T10:56:29+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2015-10-19T10:56:34+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2015-10-19T10:56:34+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+
+[ 2015-10-19T10:56:35+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+
+[ 2015-10-19T10:57:07+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 0,10   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2015-10-19T10:57:08+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2015-10-19T10:57:08+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+
+[ 2015-10-19T10:57:11+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_info` WHERE ( 1 ) ORDER BY posttime desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2015-10-19T10:57:11+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2015-10-19T10:57:11+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2015-10-19T10:57:14+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/changeAdminPass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `user` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2015-10-19T10:57:14+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2015-10-19T10:57:14+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+
+[ 2015-10-19T10:57:19+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2015-10-19T10:57:19+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+
+[ 2015-10-19T10:57:19+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+
+[ 2015-10-19T10:57:21+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2015-10-19T10:57:21+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+
+[ 2015-10-19T10:57:21+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+
+[ 2015-10-19T10:59:38+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2015-10-19T10:59:39+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+
+[ 2015-10-19T10:59:39+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+
+[ 2015-10-19T11:24:51+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2015-10-19T11:24:52+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2015-10-19T11:24:52+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2015-10-19T11:24:57+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 10,10   [ RunTime:0.0948s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2015-10-19T11:24:57+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2015-10-19T11:24:57+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2015-10-19T11:26:04+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2015-10-19T11:26:04+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2015-10-19T11:26:04+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+
+[ 2015-10-19T11:26:07+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 10,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2015-10-19T11:26:07+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+
+[ 2015-10-19T11:26:07+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+
+[ 2015-10-19T11:26:10+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2015-10-19T11:26:11+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2015-10-19T11:26:11+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+
+[ 2015-10-19T11:26:19+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 10,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2015-10-19T11:26:19+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index/p/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+
+[ 2015-10-19T11:26:19+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index/p/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+

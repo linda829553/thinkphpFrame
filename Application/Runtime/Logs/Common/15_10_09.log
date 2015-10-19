@@ -1,0 +1,48 @@
+[ 2015-10-09T08:27:30+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-10-09T09:47:28+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/checkBaoMing/id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+ERR: 无法加载模块:CheckBaoMing
+
+[ 2015-10-09T09:47:34+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/checkBaoMing/id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+ERR: 无法加载模块:CheckBaoMing
+
+[ 2015-10-09T09:47:38+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/checkBaoMing/id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+ERR: 无法加载模块:CheckBaoMing
+
+[ 2015-10-09T09:47:39+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/checkBaoMing/id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+ERR: 无法加载模块:CheckBaoMing
+
+[ 2015-10-09T09:47:39+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/checkBaoMing/id/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+ERR: 无法加载模块:CheckBaoMing
+
+[ 2015-10-09T14:39:19+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-10-09T15:03:29+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+ERR: 无法加载模块:Index
+

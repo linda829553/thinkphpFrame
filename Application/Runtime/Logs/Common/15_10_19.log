@@ -1,0 +1,12 @@
+[ 2015-10-19T08:28:18+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-10-19T14:14:59+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+ERR: 无法加载模块:Favicon
+

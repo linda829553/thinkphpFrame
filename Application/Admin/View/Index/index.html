@@ -15,9 +15,9 @@
 			
 			<ul class="shortcut-buttons-set">
 				
-				<li><a class="shortcut-button" href="#"><span>
+				<li><a class="shortcut-button" href="http://shihai.ft0917.com/mobile/php2Excel.php"><span>
 					<img src="__PUBLIC__/Admin/resources/images/icons/pencil_48.png" alt="icon" /><br />
-					Write an Article
+					导出数据
 				</span></a></li>
 				
 				<li><a class="shortcut-button" href="#"><span>
@@ -69,17 +69,44 @@
 								This is a Content Box. You can put whatever you want in it. By the way, you can close this notification with the top-right cross.
 							</div>
 						</div>
-						
+						<!-- 搜索区域 -->
+						<style>
+							.input_152{width:162px;height:28px;border:1px solid #d5d5d5;background:#fff;box-shadow:0 1px 0 0 #f0f0f0 inset;color:#5f5f5f;padding:0 10px;}
+							.btn108{width:108px;height:27px;border:1px solid #169bcc;background:url(__PUBLIC__/Admin/resources/images/all_bg.png) repeat-x left -236px;color:#fff;font-size:14px;font-family:"微软雅黑";cursor:pointer}
+
+						</style>
+
+						<form action="__CONTROLLER__/index" method="post">
+						<table>
+							<tbody>
+								<tr>
+									<th><input type="text" value="" name="keywords" placeholder="请输入会员姓名/会员手机号" class="input_152" id="code"></th>
+									<th><input type="submit" class="btn108" onclick="javascript:orderInfo(1,1);" value="查询"></th>
+									<th></th>
+									<th></th>
+									<th></th>
+									<th></th>
+									<th></th>
+									<th></th>
+								</tr>
+							</tbody>
+						</table>
+						</form>
+
 						<table>
 							
 							<thead>
 								<tr>
 								   <th><input class="check-all" type="checkbox" /></th>
-								   <th>Column 1</th>
-								   <th>Column 2</th>
-								   <th>Column 3</th>
-								   <th>Column 4</th>
-								   <th>Column 5</th>
+								   <th>姓名</th>
+								   <th>卡号</th>
+								   <th>手机号</th>
+								   <th>车号</th>
+								   <th>车型</th>
+								   <th>车色</th>
+								   <th>审车时间</th>
+								   <th>积分</th>
+								   <th>注册时间</th>
 								</tr>
 								
 							</thead>
@@ -109,13 +136,18 @@
 								<tr>
 									<td><input type="checkbox" /></td>
 									<td>{$vo.name}</td>
-									<td><a href="#" title="title">{$vo.carnumber}</a></td>
-									<td>{$vo.cartype}</td>
+									<td><a href="#" title="title">{$vo.card_num}</a></td>
 									<td>{$vo.mobile}</td>
+									<td>{$vo.carnumber}</td>
+									<td>{$vo.cartype}</td>
+									<td>{$vo.carcolor}</td>
+									<td>{$vo.cartime}</td>
+									<td>{$vo.jifeng}</td>
+									<td>{$vo.posttime|date='Y-m-d',###}</td>
 									<td>
 										<!-- Icons -->
-										 <a href="#" title="Edit"><img src="__PUBLIC__/Admin/resources/images/icons/pencil.png" alt="Edit" /></a>
-										 <a href="/myProject/thinkphpFrame/index.php/Admin/Index/delete/id/{$vo.id}" title="Delete"><img src="__PUBLIC__/Admin/resources/images/icons/cross.png" alt="Delete" /></a> 
+										 <a href="__CONTROLLER__/show_edit/id/{$vo.id}" title="Edit"><img src="__PUBLIC__/Admin/resources/images/icons/pencil.png" alt="Edit" /></a>
+										 <a href="__CONTROLLER__/delete/id/{$vo.id}" title="Delete"><img src="__PUBLIC__/Admin/resources/images/icons/cross.png" alt="Delete" /></a> 
 										 <a href="#" title="Edit Meta"><img src="__PUBLIC__/Admin/resources/images/icons/hammer_screwdriver.png" alt="Edit Meta" /></a>
 									</td>
 								</tr>

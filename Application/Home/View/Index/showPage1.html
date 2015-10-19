@@ -1,0 +1,107 @@
+ <layout name="layout" />
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">陕西世海广告</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="__CONTROLLER__/index">首页 <span class="sr-only">(current)</span></a></li>
+                <switch name="Think.get.cat_id">
+                  <case value="2">
+                    <li><a href="__CONTROLLER__/showPage/id/17">关于我们</a></li>
+                    <li><a href="__CONTROLLER__/showPage/id/20">车体广告</a></li>
+                    <li class="active"><a href="__CONTROLLER__/showPage1/cat_id/2">合作伙伴</a></li>
+                    <li><a href="__CONTROLLER__/showPage1/cat_id/3">爱车保养</a></li>
+                  </case>
+                  <case value="3">
+                    <li><a href="__CONTROLLER__/showPage/id/17">关于我们</a></li>
+                    <li><a href="__CONTROLLER__/showPage/id/20">车体广告</a></li>
+                    <li><a href="__CONTROLLER__/showPage1/cat_id/2">合作伙伴</a></li>
+                    <li class="active"><a href="__CONTROLLER__/showPage1/cat_id/3">爱车保养</a></li>
+                  </case>
+                  <default />
+                    <li><a href="__CONTROLLER__/showPage/id/17">关于我们</a></li>
+                    <li><a href="__CONTROLLER__/showPage/id/20">车体广告</a></li>
+                    <li><a href="__CONTROLLER__/showPage1/cat_id/2">合作伙伴</a></li>
+                    <li><a href="__CONTROLLER__/showPage1/cat_id/3">爱车保养</a></li>
+                </switch>
+            </ul>
+            <include file="Public:login" />
+        </div><!--/.navbar-collapse -->
+    </div>
+</nav>
+
+ <div class="container">
+
+      <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-xs-12 col-sm-9">
+          <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">切换导航</button>
+          </p>
+          <div class="jumbotron">
+              <h1>陕西世海广告公司</h1>
+              <p>达客车友会，专业专注宝鸡私家车车身广告代言</p>
+          </div>
+          <div class="row">
+            <volist name="list" id="vo">
+              <if condition="$Think.get.cat_id eq 3 or $Think.get.cat_id eq 4">
+              <div class="col-xs-12 col-lg-12">
+                <else />
+                <div class="col-xs-12 col-lg-6">
+                </if>
+                <h2>{$vo.name}</h2>
+                <p>{$vo.content|htmlspecialchars_decode|strip_tags|mb_substr=0,90,'utf-8'}</p>
+                <if condition="$Think.get.cat_id eq 3 or $Think.get.cat_id eq 4">
+                  <p><a class="btn btn-primary" href="__CONTROLLER__/showPage/id/{$vo.id}/cat_id/{$Think.get.cat_id}" id="{$vo.id}" role="button">查看详情 &raquo;</a></p>
+                <else />  
+                  <p><a class="btn btn-primary" href="#" id="cat2_{$vo.id}" role="button">查看详情 &raquo;</a></p>
+              </if>
+              </div><!--/.col-xs-6.col-lg-4-->
+            </volist>
+          </div><!--/row-->
+        </div><!--/.col-xs-12.col-sm-9-->
+
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+          <div class="list-group">
+            <volist name="topNews" id="vo">
+              <a href="__CONTROLLER__/showPage/id/{$vo.id}/cat_id/{$vo.cat_id}" class="list-group-item">{$vo.name|mb_substr=0,16,"utf-8"}</a>
+            </volist>
+          </div>
+        </div><!--/.sidebar-offcanvas-->
+      </div><!--/row-->
+
+    <!-- 模态框 -->
+<!-- Modal -->
+<div class="modal fade bs-example-modal-lg" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog  modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">这是标题</h4>
+      </div>
+      <div class="modal-body">
+        .........
+        ...<br/>
+        ...<br/>
+        ...<br/>
+        ...<br/>
+        ...<br/>
+        ...<br/>
+        ...<br/>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+      <hr>

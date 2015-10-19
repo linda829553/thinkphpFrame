@@ -13,6 +13,7 @@
 <script type="text/javascript" src="/myProject/thinkphpFrame/Public/Admin/resources/scripts/facebox.js"></script>
 <script type="text/javascript" src="/myProject/thinkphpFrame/Public/Admin/resources/scripts/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/myProject/thinkphpFrame/Public/Admin/resources/scripts/my.js"></script>
+<script type="text/javascript" src="/myProject/thinkphpFrame/Public/Admin/resources/scripts/layer.js"></script>
 <script charset="utf-8" src="/myProject/thinkphpFrame/editor/kindeditor.js"></script>
 <script charset="utf-8" src="/myProject/thinkphpFrame/editor/lang/zh_CN.js"></script>
 <script>
@@ -31,12 +32,19 @@
 <script src="http://open.web.meitu.com/sources/xiuxiu.js" type="text/javascript"></script>
 <script type="text/javascript">
 window.onload=function(){
+   // 剪裁尺寸
+  xiuxiu.setLaunchVars("cropPresets", "640x480");
+  xiuxiu.setLaunchVars("customMenu", ["edit"]);
+
+
   /*第1个参数是加载编辑器div容器，第2个参数是编辑器类型，第3个参数是div容器宽，第4个参数是div容器高*/
   xiuxiu.embedSWF("altContent",1,"100%","100%");
   //修改为您自己的图片上传接口
   // xiuxiu.setUploadURL("/myProject/thinkphpFrame/Public/xiuxiu/image_upload.php");
   xiuxiu.setUploadURL("http://localhost/myProject/thinkphpFrame/Public/xiuxiu/image_upload.php");
   xiuxiu.setUploadType(1);
+
+
   // xiuxiu.setUploadDataFieldName("upload_file");
   // xiuxiu.onInit = function ()
   // {
@@ -63,7 +71,7 @@ window.onload=function(){
 
 		<div id="sidebar"><div id="sidebar-wrapper"> <!-- Sidebar with logo and menu -->
 			
-			<h1 id="sidebar-title"><a href="#">Simpla Admin</a></h1>
+			<h1 id="sidebar-title"><a href="#">陕西世海广告后台</a></h1>
 		  
 			<!-- Logo (221px wide) -->
 			<a href="#"><img id="logo" src="/myProject/thinkphpFrame/Public/Admin/resources/images/logo.png" alt="Simpla Admin logo" /></a>
@@ -72,14 +80,14 @@ window.onload=function(){
 			<div id="profile-links">
 				Hello, <a href="#" title="Edit your profile">John Doe</a>, you have <a href="#messages" rel="modal" title="3 Messages">3 Messages</a><br />
 				<br />
-				<a href="#" title="View the Site">View the Site</a> | <a href="<?php echo ($exit_url); ?>" title="Sign Out">Sign Out</a>
+				<a href="http://localhost/myProject/test/shihai/mobile/" target="_blank" title="查看前台">查看前台</a> | <a href="<?php echo ($exit_url); ?>" title="查看前台">退出</a>
 			</div>        
 			
 			<ul id="main-nav">  <!-- Accordion Menu -->
 				
 				<li>
-					<a href="#" class="nav-top-item no-submenu"> <!-- Add the class "no-submenu" to menu items with no sub menu -->
-						Dashboard
+					<a href="/myProject/thinkphpFrame/index.php/Admin/Index/changeAdminPass" class="nav-top-item no-submenu"> <!-- Add the class "no-submenu" to menu items with no sub menu -->
+						更改密码
 					</a>       
 				</li>
 				
@@ -98,7 +106,7 @@ window.onload=function(){
 						会员管理
 						</a>
 						<ul>
-							<li><a href="/myProject/thinkphpFrame/index.php/Admin/Index/index">管理 会员</a></li> 
+							<li><a href="/myProject/thinkphpFrame/index.php/Admin/Index/index">管理会员</a></li> 
 							<!--
 							<li><a href="#">Write a new Article</a></li>						
 							<li><a href="#">Manage Comments</a></li>
@@ -122,15 +130,18 @@ window.onload=function(){
 				</li>
 				
 				<li>
-					<a href="#" class="nav-top-item">
-						Image Gallery
-					</a>
-					<ul>
-						<li><a href="#">Upload Images</a></li>
-						<li><a href="#">Manage Galleries</a></li>
-						<li><a href="#">Manage Albums</a></li>
-						<li><a href="#">Gallery Settings</a></li>
-					</ul>
+					
+						<a href="#" class="nav-top-item">
+							新闻管理
+						</a>
+						<ul>
+							<li><a href="/myProject/thinkphpFrame/index.php/Admin/News/index">发布新闻</a></li>
+							<li><a href="/myProject/thinkphpFrame/index.php/Admin/News/index">新闻分类</a></li>
+							<!--
+							<li><a href="#">Manage Pages</a></li> -->
+							
+						</ul>
+					
 				</li>
 				
 				<li>
@@ -318,7 +329,7 @@ window.onload=function(){
 							<tbody>
 								<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
 									<td><input type="checkbox" /></td>
-									<td><?php echo (substr($vo["task_name"],0,72)); ?></td>
+									<td><a href="/myProject/thinkphpFrame/index.php/Admin/Task/show_baoming/id/<?php echo ($vo["id"]); ?>"><?php echo (substr($vo["task_name"],0,72)); ?></a></td>
 									<td><?php echo (date('Y-m-d',$vo["task_start_time"])); ?>--<?php echo (date('Y-m-d',$vo["task_end_time"])); ?></td>
 									<td><?php echo ($vo["period"]); ?></td>
 									<td><?php echo ($vo["task_car_num"]); ?></td>
@@ -373,6 +384,11 @@ window.onload=function(){
 								</p>
 
 								<p>
+									<label>报名数量</label>
+									<input class="text-input" type="text" id="have_cars" name="have_cars" /> &nbsp;辆
+								</p>
+
+								<p>
 									<label>颜色</label>
 									<input class="text-input" type="text" id="car_color" name="car_color" /> 
 								</p>
@@ -399,7 +415,7 @@ window.onload=function(){
 
 								
 								<p>
-									<label>商家品牌介绍</label>
+									<label>商家品牌介绍<span style="color:red">(*注意图片上传大小为640x480)</span></label>
 									<textarea id="editor_id" name="brand_introduce" style="width:700px;height:300px;">
 									&lt;strong&gt;HTML内容&lt;/strong&gt;
 									</textarea>
@@ -407,7 +423,7 @@ window.onload=function(){
 
 
 								<p>
-									<label>征集活动介绍</label>
+									<label>征集活动介绍<span style="color:red">(*注意图片上传大小为640x480)</span></label>
 									<textarea id="editor_id1" name="collect_activity_intro" style="width:700px;height:300px;">
 									&lt;strong&gt;HTML内容&lt;/strong&gt;
 									</textarea>

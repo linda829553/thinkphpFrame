@@ -93,7 +93,7 @@ include_once("connect.php");
 			<div class="public_list">
 				<div class="list_pic_cont">
 					<div class="list_pic">
-						<img src="images/task001.jpg" alt="通天河">
+						<img src="../<?php echo $row['task_img_url'];?>" alt="通天河">
 					</div>
 					<div class="list_content">
 						<ul>

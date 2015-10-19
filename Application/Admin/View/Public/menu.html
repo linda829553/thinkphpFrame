@@ -1,7 +1,7 @@
 
 		<div id="sidebar"><div id="sidebar-wrapper"> <!-- Sidebar with logo and menu -->
 			
-			<h1 id="sidebar-title"><a href="#">Simpla Admin</a></h1>
+			<h1 id="sidebar-title"><a href="#">陕西世海广告后台</a></h1>
 		  
 			<!-- Logo (221px wide) -->
 			<a href="#"><img id="logo" src="__PUBLIC__/Admin/resources/images/logo.png" alt="Simpla Admin logo" /></a>
@@ -10,15 +10,15 @@
 			<div id="profile-links">
 				Hello, <a href="#" title="Edit your profile">John Doe</a>, you have <a href="#messages" rel="modal" title="3 Messages">3 Messages</a><br />
 				<br />
-				<a href="#" title="View the Site">View the Site</a> | <a href="{$exit_url}" title="Sign Out">Sign Out</a>
+				<a href="http://localhost/myProject/test/shihai/mobile/" target="_blank" title="查看前台">查看前台</a> | <a href="{$exit_url}" title="查看前台">退出</a>
 			</div>        
 			
 			<ul id="main-nav">  <!-- Accordion Menu -->
 				
 				<li>
-					<a href="#" class="nav-top-item no-submenu"> <!-- Add the class "no-submenu" to menu items with no sub menu -->
-						Dashboard
-					</a>       
+					<block name="change_pass"><a href="__MODULE__/Index/changeAdminPass" class="nav-top-item no-submenu"> <!-- Add the class "no-submenu" to menu items with no sub menu -->
+						更改密码
+					</a></block>       
 				</li>
 				
 				<li> <!--
@@ -36,7 +36,7 @@
 						会员管理
 						</a>
 						<ul>
-							<li><a href="__MODULE__/Index/index">管理 会员</a></li> 
+							<li><a href="__MODULE__/Index/index">管理会员</a></li> 
 							<!--
 							<li><a href="#">Write a new Article</a></li>						
 							<li><a href="#">Manage Comments</a></li>
@@ -60,15 +60,18 @@
 				</li>
 				
 				<li>
-					<a href="#" class="nav-top-item">
-						Image Gallery
-					</a>
-					<ul>
-						<li><a href="#">Upload Images</a></li>
-						<li><a href="#">Manage Galleries</a></li>
-						<li><a href="#">Manage Albums</a></li>
-						<li><a href="#">Gallery Settings</a></li>
-					</ul>
+					<block name="news_manage">
+						<a href="#" class="nav-top-item">
+							新闻管理
+						</a>
+						<ul>
+							<li><a href="__MODULE__/News/index">发布新闻</a></li>
+							<li><a href="__MODULE__/News/index">新闻分类</a></li>
+							<!--
+							<li><a href="#">Manage Pages</a></li> -->
+							
+						</ul>
+					</block>
 				</li>
 				
 				<li>

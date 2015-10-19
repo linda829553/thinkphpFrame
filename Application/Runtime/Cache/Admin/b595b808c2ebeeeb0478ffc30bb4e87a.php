@@ -13,6 +13,7 @@
 <script type="text/javascript" src="/myProject/thinkphpFrame/Public/Admin/resources/scripts/facebox.js"></script>
 <script type="text/javascript" src="/myProject/thinkphpFrame/Public/Admin/resources/scripts/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/myProject/thinkphpFrame/Public/Admin/resources/scripts/my.js"></script>
+<script type="text/javascript" src="/myProject/thinkphpFrame/Public/Admin/resources/scripts/layer.js"></script>
 <script charset="utf-8" src="/myProject/thinkphpFrame/editor/kindeditor.js"></script>
 <script charset="utf-8" src="/myProject/thinkphpFrame/editor/lang/zh_CN.js"></script>
 <script>
@@ -31,12 +32,19 @@
 <script src="http://open.web.meitu.com/sources/xiuxiu.js" type="text/javascript"></script>
 <script type="text/javascript">
 window.onload=function(){
+   // 剪裁尺寸
+  xiuxiu.setLaunchVars("cropPresets", "640x480");
+  xiuxiu.setLaunchVars("customMenu", ["edit"]);
+
+
   /*第1个参数是加载编辑器div容器，第2个参数是编辑器类型，第3个参数是div容器宽，第4个参数是div容器高*/
   xiuxiu.embedSWF("altContent",1,"100%","100%");
   //修改为您自己的图片上传接口
   // xiuxiu.setUploadURL("/myProject/thinkphpFrame/Public/xiuxiu/image_upload.php");
   xiuxiu.setUploadURL("http://localhost/myProject/thinkphpFrame/Public/xiuxiu/image_upload.php");
   xiuxiu.setUploadType(1);
+
+
   // xiuxiu.setUploadDataFieldName("upload_file");
   // xiuxiu.onInit = function ()
   // {
@@ -63,7 +71,7 @@ window.onload=function(){
 
 		<div id="sidebar"><div id="sidebar-wrapper"> <!-- Sidebar with logo and menu -->
 			
-			<h1 id="sidebar-title"><a href="#">Simpla Admin</a></h1>
+			<h1 id="sidebar-title"><a href="#">陕西世海广告后台</a></h1>
 		  
 			<!-- Logo (221px wide) -->
 			<a href="#"><img id="logo" src="/myProject/thinkphpFrame/Public/Admin/resources/images/logo.png" alt="Simpla Admin logo" /></a>
@@ -72,14 +80,14 @@ window.onload=function(){
 			<div id="profile-links">
 				Hello, <a href="#" title="Edit your profile">John Doe</a>, you have <a href="#messages" rel="modal" title="3 Messages">3 Messages</a><br />
 				<br />
-				<a href="#" title="View the Site">View the Site</a> | <a href="<?php echo ($exit_url); ?>" title="Sign Out">Sign Out</a>
+				<a href="http://localhost/myProject/test/shihai/mobile/" target="_blank" title="查看前台">查看前台</a> | <a href="<?php echo ($exit_url); ?>" title="查看前台">退出</a>
 			</div>        
 			
 			<ul id="main-nav">  <!-- Accordion Menu -->
 				
 				<li>
-					<a href="#" class="nav-top-item no-submenu"> <!-- Add the class "no-submenu" to menu items with no sub menu -->
-						Dashboard
+					<a href="/myProject/thinkphpFrame/index.php/Admin/Index/changeAdminPass" class="nav-top-item no-submenu"> <!-- Add the class "no-submenu" to menu items with no sub menu -->
+						更改密码
 					</a>       
 				</li>
 				
@@ -122,15 +130,18 @@ window.onload=function(){
 				</li>
 				
 				<li>
-					<a href="#" class="nav-top-item">
-						Image Gallery
-					</a>
-					<ul>
-						<li><a href="#">Upload Images</a></li>
-						<li><a href="#">Manage Galleries</a></li>
-						<li><a href="#">Manage Albums</a></li>
-						<li><a href="#">Gallery Settings</a></li>
-					</ul>
+					
+						<a href="#" class="nav-top-item">
+							新闻管理
+						</a>
+						<ul>
+							<li><a href="/myProject/thinkphpFrame/index.php/Admin/News/index">发布新闻</a></li>
+							<li><a href="/myProject/thinkphpFrame/index.php/Admin/News/index">新闻分类</a></li>
+							<!--
+							<li><a href="#">Manage Pages</a></li> -->
+							
+						</ul>
+					
 				</li>
 				
 				<li>
@@ -223,9 +234,9 @@ window.onload=function(){
 			
 			<ul class="shortcut-buttons-set">
 				
-				<li><a class="shortcut-button" href="#"><span>
+				<li><a class="shortcut-button" href="http://shihai.ft0917.com/mobile/php2Excel.php"><span>
 					<img src="/myProject/thinkphpFrame/Public/Admin/resources/images/icons/pencil_48.png" alt="icon" /><br />
-					Write an Article
+					导出数据
 				</span></a></li>
 				
 				<li><a class="shortcut-button" href="#"><span>
@@ -277,17 +288,44 @@ window.onload=function(){
 								This is a Content Box. You can put whatever you want in it. By the way, you can close this notification with the top-right cross.
 							</div>
 						</div>
-						
+						<!-- 搜索区域 -->
+						<style>
+							.input_152{width:162px;height:28px;border:1px solid #d5d5d5;background:#fff;box-shadow:0 1px 0 0 #f0f0f0 inset;color:#5f5f5f;padding:0 10px;}
+							.btn108{width:108px;height:27px;border:1px solid #169bcc;background:url(/myProject/thinkphpFrame/Public/Admin/resources/images/all_bg.png) repeat-x left -236px;color:#fff;font-size:14px;font-family:"微软雅黑";cursor:pointer}
+
+						</style>
+
+						<form action="/myProject/thinkphpFrame/index.php/Admin/Index/index" method="post">
+						<table>
+							<tbody>
+								<tr>
+									<th><input type="text" value="" name="keywords" placeholder="请输入会员姓名/会员手机号" class="input_152" id="code"></th>
+									<th><input type="submit" class="btn108" onclick="javascript:orderInfo(1,1);" value="查询"></th>
+									<th></th>
+									<th></th>
+									<th></th>
+									<th></th>
+									<th></th>
+									<th></th>
+								</tr>
+							</tbody>
+						</table>
+						</form>
+
 						<table>
 							
 							<thead>
 								<tr>
 								   <th><input class="check-all" type="checkbox" /></th>
-								   <th>Column 1</th>
-								   <th>Column 2</th>
-								   <th>Column 3</th>
-								   <th>Column 4</th>
-								   <th>Column 5</th>
+								   <th>姓名</th>
+								   <th>卡号</th>
+								   <th>手机号</th>
+								   <th>车号</th>
+								   <th>车型</th>
+								   <th>车色</th>
+								   <th>审车时间</th>
+								   <th>积分</th>
+								   <th>注册时间</th>
 								</tr>
 								
 							</thead>
@@ -316,12 +354,17 @@ window.onload=function(){
 								<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
 									<td><input type="checkbox" /></td>
 									<td><?php echo ($vo["name"]); ?></td>
-									<td><a href="#" title="title"><?php echo ($vo["carnumber"]); ?></a></td>
-									<td><?php echo ($vo["cartype"]); ?></td>
+									<td><a href="#" title="title"><?php echo ($vo["card_num"]); ?></a></td>
 									<td><?php echo ($vo["mobile"]); ?></td>
+									<td><?php echo ($vo["carnumber"]); ?></td>
+									<td><?php echo ($vo["cartype"]); ?></td>
+									<td><?php echo ($vo["carcolor"]); ?></td>
+									<td><?php echo ($vo["cartime"]); ?></td>
+									<td><?php echo ($vo["jifeng"]); ?></td>
+									<td><?php echo (date('Y-m-d',$vo["posttime"])); ?></td>
 									<td>
 										<!-- Icons -->
-										 <a href="#" title="Edit"><img src="/myProject/thinkphpFrame/Public/Admin/resources/images/icons/pencil.png" alt="Edit" /></a>
+										 <a href="/myProject/thinkphpFrame/index.php/Admin/Index/show_edit/id/<?php echo ($vo["id"]); ?>" title="Edit"><img src="/myProject/thinkphpFrame/Public/Admin/resources/images/icons/pencil.png" alt="Edit" /></a>
 										 <a href="/myProject/thinkphpFrame/index.php/Admin/Index/delete/id/<?php echo ($vo["id"]); ?>" title="Delete"><img src="/myProject/thinkphpFrame/Public/Admin/resources/images/icons/cross.png" alt="Delete" /></a> 
 										 <a href="#" title="Edit Meta"><img src="/myProject/thinkphpFrame/Public/Admin/resources/images/icons/hammer_screwdriver.png" alt="Edit Meta" /></a>
 									</td>

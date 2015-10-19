@@ -1,0 +1,2593 @@
+[ 2015-09-30T08:12:09+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+
+[ 2015-09-30T08:12:10+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002282s ]
+
+[ 2015-09-30T08:12:10+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/login/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+
+[ 2015-09-30T08:12:10+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/login/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+
+[ 2015-09-30T08:12:16+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Login/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `user` WHERE ( username = 'aaaaaa' AND password = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-09-30T08:12:16+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_info` WHERE ( 1 ) ORDER BY posttime desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000868s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000999s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2015-09-30T08:12:18+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2015-09-30T08:12:18+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+
+[ 2015-09-30T08:12:32+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2015-09-30T08:12:32+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2015-09-30T08:12:32+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+
+[ 2015-09-30T08:12:39+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `news` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 323 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2015-09-30T08:12:39+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+
+[ 2015-09-30T08:12:39+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+
+[ 2015-09-30T10:08:49+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `news` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 323 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2015-09-30T10:08:50+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2015-09-30T10:08:50+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+
+[ 2015-09-30T10:10:38+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1213 行.
+SQL: UPDATE `news` SET `name`='关于我们',`cat_id`='1',`content`='&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;text-align:center;&quot;&gt;
+	&lt;span style=&quot;font-family:宋体;background-color:#FFFFFF;&quot;&gt;&lt;img src=&quot;http://file.mywst.com/User/d/dakechuanmei/13082/Ueditor/Pic/2015/06/27/201506271707196623.jpg&quot; /&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;text-align:center;&quot;&gt;
+	&lt;span style=&quot;font-family:宋体;background-color:#FFFFFF;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;text-align:center;&quot;&gt;
+	&lt;strong&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;color:#000000;&quot;&gt;&lt;span style=&quot;font-family:宋体;&quot;&gt;私家车媒体&amp;nbsp;&amp;nbsp;&amp;nbsp; 优质户外广告&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;color:#000000;&quot;&gt;&lt;span style=&quot;font-family:宋体;&quot;&gt;陕西世海广告公司是一家以私家车作为媒体，发布广告，为商家广告代言的专业广告公司；是在充分学习借鉴广东、西安等地市同行业优势的基础上发展起来的行业新星。公司秉承“开创新媒体，创造新文化”的精神，与省内私家车广告业的领头羊西安甲友广告公司签约，与同行业的渭南等地市私家车广告公司合作，共同兴旺陕西私家车广告，为各类企事业单位及广告需求者奉献更好的私家车广告和企业策划服务。&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;text-indent:43px;background:#F0EFED;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;color:#000000;&quot;&gt;&lt;span style=&quot;font-family:宋体;&quot;&gt;目前公司已开通车友微信群，微网交流平台，完备的工作流程和服务体系；不断地吸纳行业精英，打造极富创造力的优秀团队。我们已合作成功为多家知名品牌和企业策划、设计、代理投放了车体广告，取得了良好的宣传效果。&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;text-indent:43px;background:#F0EFED;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;&lt;span style=&quot;font-family:宋体;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;公司下属的本地区最大规模的车友会——达客车友会，“万名会员，万台&lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;车，万名广告代言人”，为客户车体广告的快速发布夯实了媒体基础。&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color:#E53333;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family:宋体;&quot;&gt;&lt;span style=&quot;font-size:21px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;color:#000000;&quot;&gt;满怀豪情的世海广告人，立足关天经济区，面向全国，放眼世界，诚信服务，合作共赢，真诚为客户打造品牌，提升形象，扩大知名度、美誉度。&lt;/span&gt;&lt;span style=&quot;font-size:21px;&quot;&gt;&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;text-indent:53px;&quot;&gt;
+	&lt;strong&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;&lt;span style=&quot;font-size:16px;font-family:宋体;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;background:#F0EFED;&quot;&gt;
+	&lt;span style=&quot;font-family:宋体;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:24px;line-height:48px;font-family:仿宋_GB2312;color:#000000;&quot;&gt;我们的服务宗旨：&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;font-size:21px;line-height:42px;font-family:仿宋_GB2312;color:#000000;&quot;&gt;&amp;nbsp;至诚服务&amp;nbsp; 追求完美&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;h2 style=&quot;font-size:14px;font-weight:normal;color:#6D6D6D;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;color:#000000;line-height:31.5px;font-family:仿宋_GB2312;&quot;&gt;&lt;span style=&quot;font-family:宋体;&quot;&gt;与客户一起成长是我们的的一致目标；&lt;/span&gt;&lt;/span&gt; 
+&lt;/h2&gt;
+&lt;h2 style=&quot;font-size:14px;font-weight:normal;color:#6D6D6D;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-family:宋体;color:#000000;&quot;&gt;&lt;span style=&quot;font-size:21px;line-height:31.5px;font-family:仿宋_GB2312;&quot;&gt;客户需要是我们服务的唯一前提；&lt;/span&gt;&lt;/span&gt; 
+&lt;/h2&gt;
+&lt;h2 style=&quot;font-size:14px;font-weight:normal;color:#6D6D6D;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-family:宋体;color:#000000;&quot;&gt;&lt;span style=&quot;font-size:21px;line-height:31.5px;font-family:仿宋_GB2312;&quot;&gt;无论何时何地何事，永远增值服务；客户一分投入，我们十分努力，争取百分效果。&lt;/span&gt;&lt;/span&gt; 
+&lt;/h2&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;text-indent:53px;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;&lt;span style=&quot;font-size:16px;font-family:宋体;&quot;&gt;&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;strong&gt;&lt;span style=&quot;font-size:24px;font-family:仿宋_GB2312;color:#000000;&quot;&gt;&lt;span style=&quot;font-family:宋体;&quot;&gt;我们的业务范围：&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;text-indent:53px;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;color:#000000;&quot;&gt;&lt;span style=&quot;font-family:宋体;&quot;&gt;一、代征车辆，全程服务。从策划方案，办理广告许可证、设计制作车贴、征集车辆、张贴维护、监督执行、发放筹金等全程为客户服务。&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;text-indent:53px;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;color:#000000;&quot;&gt;&lt;span style=&quot;font-family:宋体;&quot;&gt;二、客户自有自征车辆。对于客户自有自征车辆，我方提供代办广告许可证、设计制作车贴、张贴维护等服务。&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;text-indent:53px;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;color:#000000;&quot;&gt;&lt;span style=&quot;font-family:宋体;&quot;&gt;三、车队巡游。为客户营销策划，开展节日庆典、热卖促销等车队巡游活动。组织车队集中宣传。&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-family:宋体;color:#000000;&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;选择我们，选择专业；选择我们，选择诚信！&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;margin-left:32px;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-family:微软雅黑;font-size:14px;text-align:center;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;&lt;img src=&quot;http://img.qycdn.daoyoudao.com/upload/36237/contManage/20150716/20150716175954_387.png&quot; /&gt;&lt;br /&gt;
+&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-family:微软雅黑;font-size:14px;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;选择我们，选择专业；选择我们，选择诚信！&lt;/span&gt; 
+&lt;/p&gt;
+&lt;span style=&quot;font-family:微软雅黑;font-size:18px;line-height:1.5;&quot;&gt;世海邮箱：sxshgg@163.com&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:微软雅黑;font-size:18px;line-height:1.5;&quot;&gt;征车热线：&lt;a href=&quot;tel:0917-3256558&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color:#009900;&quot;&gt;0917-3256558&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;color:#009900;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color:#009900;&quot;&gt;0917-2661123&lt;/span&gt;&lt;/span&gt;',`post_man`='admin',`post_time`='1443579037' WHERE `id` = 17 [ RunTime:0.1031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2015-09-30T10:10:39+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `news` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 323 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2015-09-30T10:10:39+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+
+[ 2015-09-30T10:10:39+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+
+[ 2015-09-30T10:12:56+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1213 行.
+SQL: UPDATE `news` SET `name`='关于我们',`cat_id`='1',`content`='&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;text-align:center;&quot;&gt;
+	&lt;span style=&quot;font-family:宋体;background-color:#FFFFFF;&quot;&gt;&lt;img src=&quot;http://file.mywst.com/User/d/dakechuanmei/13082/Ueditor/Pic/2015/06/27/201506271707196623.jpg&quot; /&gt;&lt;span style=&quot;color:#000000;&quot;&gt;&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;text-align:center;&quot;&gt;
+	&lt;span style=&quot;font-family:宋体;background-color:#FFFFFF;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;text-align:center;&quot;&gt;
+	&lt;strong&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;color:#000000;&quot;&gt;&lt;span style=&quot;font-family:宋体;&quot;&gt;私家车媒体&amp;nbsp;&amp;nbsp;&amp;nbsp; 优质户外广告&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;color:#000000;&quot;&gt;&lt;span style=&quot;font-family:宋体;&quot;&gt;陕西世海广告公司是一家以私家车作为媒体，发布广告，为商家广告代言的专业广告公司；是在充分学习借鉴广东、西安等地市同行业优势的基础上发展起来的行业新星。公司秉承“开创新媒体，创造新文化”的精神，与省内私家车广告业的领头羊西安甲友广告公司签约，与同行业的渭南等地市私家车广告公司合作，共同兴旺陕西私家车广告，为各类企事业单位及广告需求者奉献更好的私家车广告和企业策划服务。&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;text-indent:43px;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;color:#000000;&quot;&gt;&lt;span style=&quot;font-family:宋体;&quot;&gt;目前公司已开通车友微信群，微网交流平台，完备的工作流程和服务体系；不断地吸纳行业精英，打造极富创造力的优秀团队。我们已合作成功为多家知名品牌和企业策划、设计、代理投放了车体广告，取得了良好的宣传效果。&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;text-indent:43px;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;&lt;span style=&quot;font-family:宋体;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;公司下属的本地区最大规模的车友会——达客车友会，“万名会员，万台&lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;车，万名广告代言人”，为客户车体广告的快速发布夯实了媒体基础。&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color:#E53333;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family:宋体;&quot;&gt;&lt;span style=&quot;font-size:21px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;color:#000000;&quot;&gt;满怀豪情的世海广告人，立足关天经济区，面向全国，放眼世界，诚信服务，合作共赢，真诚为客户打造品牌，提升形象，扩大知名度、美誉度。&lt;/span&gt;&lt;span style=&quot;font-size:21px;&quot;&gt;&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;text-indent:53px;&quot;&gt;
+	&lt;strong&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;&lt;span style=&quot;font-size:16px;font-family:宋体;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-family:宋体;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:24px;line-height:48px;font-family:仿宋_GB2312;color:#000000;&quot;&gt;我们的服务宗旨：&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;font-size:21px;line-height:42px;font-family:仿宋_GB2312;color:#000000;&quot;&gt;&amp;nbsp;至诚服务&amp;nbsp; 追求完美&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;h2 style=&quot;font-size:14px;font-weight:normal;color:#6D6D6D;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;color:#000000;line-height:31.5px;font-family:仿宋_GB2312;&quot;&gt;&lt;span style=&quot;font-family:宋体;&quot;&gt;与客户一起成长是我们的的一致目标；&lt;/span&gt;&lt;/span&gt; 
+&lt;/h2&gt;
+&lt;h2 style=&quot;font-size:14px;font-weight:normal;color:#6D6D6D;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-family:宋体;color:#000000;&quot;&gt;&lt;span style=&quot;font-size:21px;line-height:31.5px;font-family:仿宋_GB2312;&quot;&gt;客户需要是我们服务的唯一前提；&lt;/span&gt;&lt;/span&gt; 
+&lt;/h2&gt;
+&lt;h2 style=&quot;font-size:14px;font-weight:normal;color:#6D6D6D;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-family:宋体;color:#000000;&quot;&gt;&lt;span style=&quot;font-size:21px;line-height:31.5px;font-family:仿宋_GB2312;&quot;&gt;无论何时何地何事，永远增值服务；客户一分投入，我们十分努力，争取百分效果。&lt;/span&gt;&lt;/span&gt; 
+&lt;/h2&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;text-indent:53px;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;&lt;span style=&quot;font-size:16px;font-family:宋体;&quot;&gt;&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;strong&gt;&lt;span style=&quot;font-size:24px;font-family:仿宋_GB2312;color:#000000;&quot;&gt;&lt;span style=&quot;font-family:宋体;&quot;&gt;我们的业务范围：&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;text-indent:53px;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;color:#000000;&quot;&gt;&lt;span style=&quot;font-family:宋体;&quot;&gt;一、代征车辆，全程服务。从策划方案，办理广告许可证、设计制作车贴、征集车辆、张贴维护、监督执行、发放筹金等全程为客户服务。&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;text-indent:53px;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;color:#000000;&quot;&gt;&lt;span style=&quot;font-family:宋体;&quot;&gt;二、客户自有自征车辆。对于客户自有自征车辆，我方提供代办广告许可证、设计制作车贴、张贴维护等服务。&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;text-indent:53px;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;color:#000000;&quot;&gt;&lt;span style=&quot;font-family:宋体;&quot;&gt;三、车队巡游。为客户营销策划，开展节日庆典、热卖促销等车队巡游活动。组织车队集中宣传。&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-family:宋体;color:#000000;&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;选择我们，选择专业；选择我们，选择诚信！&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;margin-left:32px;color:#6D6D6D;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-family:微软雅黑;font-size:14px;text-align:center;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;&lt;img src=&quot;http://img.qycdn.daoyoudao.com/upload/36237/contManage/20150716/20150716175954_387.png&quot; /&gt;&lt;br /&gt;
+&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#6D6D6D;font-family:微软雅黑;font-size:14px;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;选择我们，选择专业；选择我们，选择诚信！&lt;/span&gt; 
+&lt;/p&gt;
+&lt;span style=&quot;font-family:微软雅黑;font-size:18px;line-height:1.5;&quot;&gt;世海邮箱：sxshgg@163.com&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:微软雅黑;font-size:18px;line-height:1.5;&quot;&gt;征车热线：&lt;a href=&quot;tel:0917-3256558&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color:#009900;&quot;&gt;0917-3256558&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;color:#009900;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color:#009900;&quot;&gt;0917-2661123&lt;/span&gt;&lt;/span&gt;',`post_man`='admin',`post_time`='1443579176' WHERE `id` = 17 [ RunTime:0.0559s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001597s ]
+
+[ 2015-09-30T10:12:57+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `news` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 323 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2015-09-30T10:12:58+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+
+[ 2015-09-30T10:12:58+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+
+[ 2015-09-30T10:16:05+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `news` WHERE ( id=17 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 323 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2015-09-30T10:16:06+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+
+[ 2015-09-30T10:16:06+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001305s ]
+
+[ 2015-09-30T10:16:09+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2015-09-30T10:16:10+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2015-09-30T10:16:10+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2015-09-30T10:16:18+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `news` WHERE ( id=20 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 323 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2015-09-30T10:16:18+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+
+[ 2015-09-30T10:16:18+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+
+[ 2015-09-30T10:18:47+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1213 行.
+SQL: UPDATE `news` SET `name`='车体广告',`cat_id`='1',`content`='&lt;h2 style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;text-align:center;&quot;&gt;
+	&lt;br /&gt;
+&lt;/h2&gt;
+&lt;h2 style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;1&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;户外媒体&lt;/span&gt;
+&lt;/h2&gt;
+&lt;h3 style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;特性&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;相对于其他的&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;户外媒体&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;形式，车身广告的传播方式是主动出现在受众的视野之中，在传播方式上最为“积极、主动”。&lt;/span&gt;
+&lt;/p&gt;
+&lt;h3 style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;受众距离&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;车身的两侧展示位，面积巨大，特别是在经过交叉路口时，画面展示充分。车尾展示区，配合两侧展示面构成展示整体，并大大延伸了广告的有效可视距离与角度。同时，针对驾车者，广告特别醒目。另外，车身广告的高度位置正好与行人视线持平，可以将广告信息近距离的传播给受众，达到最大的可视机会。&lt;/span&gt;
+&lt;/p&gt;
+&lt;h3 style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;传播距离&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;广告发布面积大，画面清晰，有效传播距离远，车身广告最大有效可视距离达到70-75米，双层车甚至达到100米，形成范围广阔的有效可视区域。&lt;/span&gt;
+&lt;/p&gt;
+&lt;h3 style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;丰富类型&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;车身广告几乎适合所有行业发布广告信息。在以往的客户中有食品、饮料、酒类、保健品、化妆品、日用品、家电、药品、邮电通讯、零售百货、房地产、&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;金融证券&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;、&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;银行保险&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;、&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;家居建材&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;、&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;服装服饰&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;、办公用品、餐饮娱乐、生活服务、IT类、媒体、教育培训、&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;公益广告&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;等等。还记得车身上那个醒目的搜狐的狐狸脚印和尾巴吗？……可以说车身广告已经渗透到各个行业，并且非常自然地融入到了人们日常生活的方方面面。&lt;/span&gt;
+&lt;/p&gt;
+&lt;h3 style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;接触机率与频次&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;车身广告是可见机会最大的户外&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;广告媒体&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;。单车可覆盖面积平均为0.3平方公里，日均接触人次万余，若以3个月发布时间计算，有效OTS可达到300000人次。以此推算一个为期三个月的发布期，其目标区域总接触频次可以达到24次以上，足以保障其对广告的印象。&lt;/span&gt;
+&lt;/p&gt;
+&lt;h3 style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;地理针对性&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;车身媒体的可移动性使之可以覆盖城市各个区域，带来广阔的广告覆盖范围，完整有效地接触目标人群。还可以通过集中巡游等促销活动，在选择线路时，针对客户的产品可以适当选择线路经过商业区、商务区、&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;主干道&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;、&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;特色街道&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;、居民小区、高档&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;住宅区&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;、大学区等，最大限度的将广告信息传递给目标消费者。&lt;/span&gt;
+&lt;/p&gt;
+&lt;h3 style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;成本&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;据&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;夸克&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;市场研究公司&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;的统计数据表明：在全国主流媒体中，杂志的平均&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;千人成本&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;最高，为20.8元，其次是&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;电视广告&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;20.64元，&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;报纸广告&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;10.28元，电台广告4.43元，车身广告1.19元。所以，在所有媒体中，车身广告的平均千人成本最低，最具有竞争力。&lt;/span&gt;
+&lt;/p&gt;
+&lt;h3 style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;与消费者关系&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;据CMMS2003（Autumn）统计显示，在全国30个城市普通居民的媒体接触习惯中，昨天看过电视的比例有93%，过去一周看过车身广告的有66%，昨天看过报纸的有57%，昨天听过收音机的有24%，也就是说，车身广告是普通消费者除电视以外接触最多的&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;广告媒体&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;。&lt;/span&gt;
+&lt;/p&gt;
+&lt;h2 style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;2&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;考虑因素&lt;/span&gt;
+&lt;/h2&gt;
+&lt;h3 style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;发布线路&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;在选择投放车体广告时，首先集中在市区的黄金线路，覆盖市区的商业商务中心、交通干道，以期覆盖尽可能多的人流与车流。另外还可以根据不同产品的实际情况，选择有针对性的线路，让目标消费者有更多机会看到广告。&lt;/span&gt;
+&lt;/p&gt;
+&lt;h3 style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;发布时期&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;车体广告发布时期分为发布周期与发布时机。一是长周期。选择&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;产品价值&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;高的&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;耐用消费品&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;或消费季节性不明显的&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;快速消费品&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;可采用长周期的发布策略，以覆盖整个消费周期，同时减少频繁更换画面的&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;广告制作&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;费用；二是短周期。相对于消费季节性明显的产品，可采用在消费旺季来临之前集中宣传，在短期内迅速提升&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;知名度&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;。三是按照产品上市与广告发布&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;时间差&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;可以分为提前发布、同期发布、季节性发布。&lt;/span&gt;
+&lt;/p&gt;
+&lt;h3 style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;发布数量&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;广告发布的次数到底多少次才合理？出现频次如果太少或太多，效果都会大打折扣。发布频次少，消费者含糊不清，不能产生大的影响；广告发布频次密而多，消费者在接收广告信息一定时间后，就会开始麻木，甚至产生反感。&lt;/span&gt;
+&lt;/p&gt;
+&lt;h2 style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;配合策略&lt;/span&gt;
+&lt;/h2&gt;
+&lt;h3 style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;广告目的的配合&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;车身广告发布目的一般非常明确，归纳起来有以下4点：&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;1、以品牌形象为主要诉求目的。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;2、以产品推广为主要目的。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;3、以配合电视广告为主要目的。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;4、以配合产品促销为主要目的。&lt;/span&gt;
+&lt;/p&gt;
+&lt;h3 style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;广告策略的配合&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;有效配合&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;电波媒体&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;的广告落地工作（高空+地面的广告投放模式）。对于在全国性媒体上投放广告的产品来讲，车身广告能够帮助其进行广告信息在各地域的落地工作。投放组合媒体的&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;广告效果&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;要远远大于单一媒体的&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;广告效果&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;，高空有电波媒体覆盖（电视），地面有车身广告配合，同时可以连接终端售点（卖场、超市、饭店、酒家等），提示消费者购买，以配合当地的销售。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;当车身广告的主画面和&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;电视广告&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;中的主&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;诉求点&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;相同时，可以让&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;目标受众&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;在强干扰的环境之下接受到电视广告后，再通过车身广告进行&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;品牌识别&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;，就可以大大加强电视广告的效果。&lt;/span&gt;
+&lt;/p&gt;
+&lt;h3 style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;广告排期的配合&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;1、长期车身广告配合间歇式投放的电视广告，以达到长期维持品牌的知名度的目的。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;2、在没有电视广告投放的情况下，用间歇式车身广告投放来维持产品知名度。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;3、车身广告作为电视广告的延续，用最低的成本最长时间的延长产品的知名度。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;4、长期电视广告与车身广告同时叠加投放，以期一定时间内达到最大的广告效果。&lt;/span&gt;
+&lt;/p&gt;
+&lt;h3 style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;广告位置的配合&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;1、两侧或单车尾发布。广告发布面积小，发布价格低廉，适合诉求与品牌形象相关性较低的简单广告信息和促销等信息告知，同时，其广告覆盖面及发布辆月次方面应做相应增加 。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;2、全车发布。广告发布面积大，广告信息传播完整美观，视觉效果良好，适合主流品牌的营造及&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;品牌维护&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;推广工作，因发布费用相对较高，故在线路覆盖范围、发布辆月次等方面会相应被减缩 。&lt;/span&gt;
+&lt;/p&gt;
+&lt;h2 style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;4&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;调研结果&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;从实力媒体最新的调研结果来看：&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;户外广告&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;的提示后认知度以车身广告最高38%，其次是&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;候车亭广告&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312;&quot;&gt;23%，大牌广告14%，地铁广告9%。同时有81%的人每周的行走路线是固定的，并且每周平均经过固定路线9.4次，使用的交通工具仍以私家车为主。&lt;/span&gt;
+&lt;/p&gt;',`post_man`='admin',`post_time`='1443579527' WHERE `id` = 20 [ RunTime:0.3161s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2015-09-30T10:18:49+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0262s ]
+SQL: SELECT * FROM `news` WHERE ( id=20 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 323 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\1f85d3664fec2ac77d058a6887500c94.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2015-09-30T10:18:49+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2015-09-30T10:18:49+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/show_edit/id/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+
+[ 2015-09-30T10:18:57+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2015-09-30T10:18:58+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2015-09-30T10:18:58+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+
+[ 2015-09-30T10:54:54+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0577s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000518s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000709s ]
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2015-09-30T10:54:55+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2015-09-30T10:54:55+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2015-09-30T11:30:08+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2015-09-30T11:30:09+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+
+[ 2015-09-30T11:30:09+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2015-09-30T11:30:13+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/show_edit/id/48
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `tasks` WHERE ( id=48 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\26277d3be42e7aef19fe5fe8df24603e.php 第 323 行.
+NOTIC: [8] Undefined variable: list D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\26277d3be42e7aef19fe5fe8df24603e.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2015-09-30T11:30:13+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/show_edit/id/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+
+[ 2015-09-30T11:30:13+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/show_edit/id/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+
+[ 2015-09-30T11:33:46+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2015-09-30T11:33:47+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2015-09-30T11:33:47+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2015-09-30T11:33:50+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user_info` WHERE ( 1 ) ORDER BY posttime desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2015-09-30T11:33:50+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2015-09-30T11:33:50+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+
+[ 2015-09-30T11:33:52+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2015-09-30T11:33:52+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2015-09-30T11:33:52+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2015-09-30T11:44:12+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2015-09-30T11:44:12+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+
+[ 2015-09-30T11:44:12+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2015-09-30T11:46:23+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2015-09-30T11:46:23+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001288s ]
+
+[ 2015-09-30T11:46:23+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+
+[ 2015-09-30T11:46:25+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2015-09-30T11:46:25+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2015-09-30T11:46:25+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+
+[ 2015-09-30T14:11:27+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+
+[ 2015-09-30T14:11:27+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2015-09-30T14:11:28+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/login/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+
+[ 2015-09-30T14:11:28+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/login/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2015-09-30T14:11:35+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Login/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0406s ]
+SQL: SELECT * FROM `user` WHERE ( username = 'aaaaaa' AND password = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-09-30T14:11:35+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0335s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_info` WHERE ( 1 ) ORDER BY posttime desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2015-09-30T14:11:36+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2015-09-30T14:11:36+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Index/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2015-09-30T14:11:42+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2015-09-30T14:11:42+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+
+[ 2015-09-30T14:11:42+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+
+[ 2015-09-30T14:14:03+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2015-09-30T14:14:03+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+
+[ 2015-09-30T14:14:03+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+
+[ 2015-09-30T14:17:23+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1213 行.
+SQL: INSERT INTO `news` (`name`,`cat_id`,`content`,`post_man`,`post_time`) VALUES ('宝鸡市固特异轮胎旗舰店','2','&lt;span style=&quot;font-size:18px;font-family:\'Microsoft YaHei\';color:#000000;line-height:1.5;&quot;&gt;一、车辆免费维修服务项目:&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:18px;font-family:\'Microsoft YaHei\';color:#000000;line-height:1.5;&quot;&gt;1、免费充气，测量胎压；&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:18px;font-family:\'Microsoft YaHei\';color:#000000;line-height:1.5;&quot;&gt;2、免费更换氮气（夏季）；&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:18px;font-family:\'Microsoft YaHei\';color:#000000;line-height:1.5;&quot;&gt;3、免费的轮胎检查；&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:18px;font-family:\'Microsoft YaHei\';color:#000000;line-height:1.5;&quot;&gt;4、免费轮胎咨询服务。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:18px;font-family:\'Microsoft YaHei\';color:#000000;line-height:1.5;&quot;&gt;二、车辆优惠服务项目：&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:18px;font-family:\'Microsoft YaHei\';color:#000000;line-height:1.5;&quot;&gt;1、更换轮胎、补胎平衡；&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:18px;font-family:\'Microsoft YaHei\';color:#000000;line-height:1.5;&quot;&gt;2、维修保养、修补划痕；&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:18px;font-family:\'Microsoft YaHei\';color:#000000;line-height:1.5;&quot;&gt;3、四轮定位调试（50元/辆）；&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:18px;font-family:\'Microsoft YaHei\';color:#000000;line-height:1.5;&quot;&gt;4、外出救援。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:18px;font-family:\'Microsoft YaHei\';color:#000000;line-height:1.5;&quot;&gt;5、维修费用包括:维修项目(工时)费、材料费等。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:18px;font-family:\'Microsoft YaHei\';color:#000000;line-height:1.5;&quot;&gt;6、维修项目以及维修材料按照最优折扣收取。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:18px;font-family:\'Microsoft YaHei\';color:#000000;line-height:1.5;&quot;&gt;7、确保提供正品，配件质保。&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-size:18px;font-family:\'Microsoft YaHei\';color:#000000;line-height:1.5;&quot;&gt;地址： 陕西省宝鸡市渭滨区滨河路碧海蓝天东侧十字路口向东100米左右（广电传媒对面）&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:18px;font-family:\'Microsoft YaHei\';color:#000000;line-height:1.5;&quot;&gt;电话： (0917)2834908&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size:18px;font-family:\'Microsoft YaHei\';color:#000000;line-height:1.5;&quot;&gt;&lt;/span&gt;&lt;br /&gt;','admin','1443593843') [ RunTime:0.1193s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001234s ]
+
+[ 2015-09-30T14:17:25+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2015-09-30T14:17:25+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2015-09-30T14:17:25+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2015-09-30T14:18:41+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1213 行.
+SQL: INSERT INTO `news` (`name`,`cat_id`,`content`,`post_man`,`post_time`) VALUES ('亨达汽修','2','&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;达客车友会会员在此享受：&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;1、全年上班时间内市区免费救援。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;2、全年免费添加玻璃水、防冻液。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;3、送全车48项检测2次。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;4、享受特惠车辆维修，更可享受保养免工时费。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;5、不定期举办各种自驾游等个性化活动。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;6、将免费开通车主秘书，车主秘书会及时向您发出最新的贴车任务，同时还有车辆年审和车险到期提醒等通知服务。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;7、汽车保险购买咨询，汽车保险理赔咨询。&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;达客会员可享受：&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;1、洗车全年800元不限次数（办年卡前50名送360元进口蜡一盒）；&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;2、洗车办卡300元16次（送手工打蜡1次）；&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;3、洗车办卡300元20次（无打蜡）；&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;4、精洗500元10次（送价值120元的清洗钢圈1次，价值100元的全车机器打蜡1次）&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;活动地点：宝光路南府大院向南80米（亨达汽修院内）&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;联系电话：13379480005&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;&lt;/span&gt;','admin','1443593921') [ RunTime:0.0719s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001944s ]
+
+[ 2015-09-30T14:18:43+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2015-09-30T14:18:43+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+
+[ 2015-09-30T14:18:43+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+
+[ 2015-09-30T14:19:38+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0061s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1213 行.
+SQL: INSERT INTO `news` (`name`,`cat_id`,`content`,`post_man`,`post_time`) VALUES ('佳润捷汽车生活馆','2','&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;凭达客车友会电子会员卡，常年享受洗车9.9元/次。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;1、会员免费测胎压，补气。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;2、会员免费小划痕处理。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;3、会员免费玻璃防雾处理。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;4、会员免费拆装坐垫、座套。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;5、会员免费体验新产品一次（活动获赠）。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;6、会员清洗内饰、蒸桑拿享受特价380元/次。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;7、会员享受清洗发动机99元/次。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;8、会员封釉享受买一赠一，600元两次。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;9、会员享受0度玻璃水5元/瓶。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;10、会员免费添补、检查冷却液。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;11、会员二级保养（换机油、空滤）免费洗车一次。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;12、会员贴膜均享受特价。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;13、会员清洗凉垫享受60元/次。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;14、会员购买各种坐垫均8折优惠。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;15、会员打蜡均享受80元/次。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;16、会员镀膜套餐（白金硬化镀膜）均享受7折优惠。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;17、会员介绍新会员加入均送洗发动机一次。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;18、会员年内活动日获赠精美礼品。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;19、会员填写建议、意见均赠精美礼品。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;20、会员加入佳润捷车友会均享受免费清洗车辆套餐三次。&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;活动地点：宝鸡市高新六路中石油院内&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;咨询电话：0917-3295106&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;0917-3372550&lt;/span&gt;&lt;br /&gt;','admin','1443593978') [ RunTime:0.0479s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2015-09-30T14:19:39+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2015-09-30T14:19:40+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2015-09-30T14:19:40+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+
+[ 2015-09-30T14:20:27+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1213 行.
+SQL: INSERT INTO `news` (`name`,`cat_id`,`content`,`post_man`,`post_time`) VALUES ('旺鑫汽修','2','&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;达客车友会会员在此享受：&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;1、全年上班时间内市区免费救援。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;2、送全车48项检测2次。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;3、享受特惠车辆维修，更可享受保养免工时费。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;4、不定期举办各种自驾游等个性化活动。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;5、将免费开通车主秘书，车主秘书会及时向您发出最新的贴车任务，同时还有车辆年审和车险到期提醒等通知服务。&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;6、汽车保险购买咨询，汽车保险理赔咨询。&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;地址：宝鸡市火炬路中段22号（金盾小区旁边）&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;电话：王红 &amp;nbsp;13891784888&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:\'Microsoft YaHei\';font-size:18px;color:#000000;line-height:1.5;&quot;&gt;&lt;/span&gt;','admin','1443594027') [ RunTime:0.0480s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002013s ]
+
+[ 2015-09-30T14:20:28+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2015-09-30T14:20:28+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2015-09-30T14:20:28+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2015-09-30T14:20:37+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2015-09-30T14:20:38+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2015-09-30T14:20:38+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+
+[ 2015-09-30T14:21:36+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0234s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tasks` WHERE ( 1 ) ORDER BY task_posttime desc LIMIT 0,10   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000511s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000969s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2015-09-30T14:21:37+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2015-09-30T14:21:37+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/Task/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2015-09-30T14:21:39+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2015-09-30T14:21:40+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+
+[ 2015-09-30T14:21:40+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2015-09-30T14:21:41+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2015-09-30T14:21:42+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+
+[ 2015-09-30T14:21:42+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+
+[ 2015-09-30T14:21:43+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2015-09-30T14:21:43+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2015-09-30T14:21:43+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+
+[ 2015-09-30T14:21:49+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2015-09-30T14:21:50+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2015-09-30T14:21:50+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2015-09-30T15:02:32+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0238s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2015-09-30T15:02:32+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2015-09-30T15:02:32+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2015-09-30T15:12:46+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1213 行.
+SQL: INSERT INTO `news` (`name`,`cat_id`,`content`,`post_man`,`post_time`) VALUES ('夏季汽车保养之降温小攻略','3','&lt;p style=&quot;font-size:14px;font-family:Tahoma, Arial, 宋体;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;&quot;&gt;转眼，高温酷热的夏季就越来越近了。许多爱车人士为了出行更舒适，为爱车配备了不少汽车用品。除去这些外在补充，汽车的内在保养和日常驾驶习惯也是很重要的。下面我们来分享一些应对高温出行的小攻略。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Tahoma, Arial, 宋体;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Tahoma, Arial, 宋体;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;&quot;&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;【降温的汽车用品】&lt;/span&gt;&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Tahoma, Arial, 宋体;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;1、车载冰箱。车载冰箱最受年轻车主青睐。里边可以盛放矿泉水、可乐等饮料和水果。只需将冰箱的电源插头插在汽车的点烟器就可以正常工作了，有的简易冰箱还不需要电源，直接用冰块就行。采用半导体原理的车载冰箱，基本上是冷热两用的。夏季采用制冷方式，冬天也可以用来暖饮料。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Tahoma, Arial, 宋体;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;2、移动冰袋。冰袋放入冰箱里10个小时后，再将饮料放入，可短时间内降至低温。冰袋的自我保冻功能可达几个小时。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Tahoma, Arial, 宋体;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;3、凉垫。夏季给车内椅子换上凉爽的坐垫也是降低温度的好办法。目前市场上凉垫种类繁多，以材质来分，就有亚麻、冰丝、竹草等多类，加上厂家每年都会推出一些新产品，所以凉垫市场的产品种类是琳琅满目。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Tahoma, Arial, 宋体;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;4、隔热膜。在炎热的夏天，车主应该考虑把裸露在烈日下的车窗，贴上一层能有效阻隔紫外线和热量的膜。汽车隔热膜有前、后挡风膜和侧挡风膜之分。其中，对隔热膜要求最高的是前挡风玻璃，此外，隔热膜的抗紫外线指数时也是越高越好。侧挡风玻璃可选择的隔热膜较为灵活，颜色也比较多变。此外，隔热膜的隔热效果与颜色深浅并没有直接的关系，隔热膜内的涂层工艺才是决定隔热效果的关键因素。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Tahoma, Arial, 宋体;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Tahoma, Arial, 宋体;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;&quot;&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;【高温天气应注意的问题】&lt;/span&gt;&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Tahoma, Arial, 宋体;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;1、发动机水温过高，要添加防冻液。发动机水温过高多数是由于防冻液缺失所致，应将车辆停在阴凉处降温，不要熄火，让发动机继续怠速运转，掀开机器盖子散热，当温度降下来后再给水箱加防冻液，切忌向发动机浇凉水，这可能造成发动机缸体炸裂，无法修复。有些车主索性用自来水代替防冻液，这样是一种错误做法，因为水中有很多杂质，易在发动机、水箱等处留下沉淀物，所以不能用水来替代防冻液。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Tahoma, Arial, 宋体;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;2、检查散热系统并及时清洗散热器。还应检查“节温器”工作是否正常，万不可拆掉“节温器”。因为“节温器”是控制冷却液大小循环的开关，能让发动机工作温度保持在一个最佳范围内，这样发动机工作起来才会动力最强、磨损最孝油耗最低，如果拆掉它会造成零件磨损，水温偏低会导致动力下降、油耗上升。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Tahoma, Arial, 宋体;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;3、清洁水箱及冷凝器。水箱和冷凝器是车辆冷却系统和空调的重要组成，随着车辆的长时间使用，像尘土、泥沙、柳絮等就会夹杂在两者之间的缝隙中，从而会影响水温和空调制冷的性能。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Tahoma, Arial, 宋体;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;4、轮胎气压及时调节。夏季路面温度高导致轮胎散热性降低，易引发爆胎事故，因此要调低轮胎胎压。长途行驶一段时间后要将车辆停&lt;/span&gt;&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;放在阴凉处自然冷却轮胎，不可浇冷水，以免轮胎变形。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Tahoma, Arial, 宋体;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;5、高温下避免车辆自燃。车辆自燃主要是车辆漏电或者漏油造成的。汽车不当保养，零部件老化和线路破损，就易漏电。而油箱长时间遭到腐蚀也容易漏油。所以高温下避免自燃还要从汽车保养开始。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Tahoma, Arial, 宋体;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;6、空调使用频繁，应及时清洁风道和滤芯。再者，还要注意冷媒泄漏和制冷不良。这通常是由管路中的密封胶圈老化、制冷剂压力异常、系统部件损坏造成的。另外还要注意散热风扇的工作状况。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Tahoma, Arial, 宋体;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Tahoma, Arial, 宋体;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;&quot;&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;【养成良好的驾驶习惯】&lt;/span&gt;&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Tahoma, Arial, 宋体;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;1、切忌长时间使用空调内循环。内循环原理是空气在车内封闭的空间内循环，这样就造成了车内的含氧量会不断下降，而且如果汽缸中的汽油燃烧不完全，发动机未燃烧尽的一氧化碳也可能漏进车厢内，因此车内的空气质量会越来越差，甚至对人体产生危害，因此不能长期开内循环。不能开着内循环在车内睡觉，也是这个道理。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Tahoma, Arial, 宋体;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;2、切忌烈日烘烤下启动汽车立刻开空调。在夏季很多车都有在烈日下暴晒的经历，即便有时停放在阴凉处，但也很难逃脱闷热空气的烘烤，这时打开车门钻进车里，绝对是车里比车外还热。很多人会马上启动汽车 ，打开空调，将风速调大，以达到最快的制冷效果。其实这样做并不合理。正确的散热方法是在启动汽车后先将两侧的玻璃放下，先让车外空气对流，这样做除了可以使车内温度很快降低外，还能有效减少空调在随后制冷时的负荷 。待三分钟后发动机转速平稳，再将车窗收起，打开空调，这样就不会对发动机造成伤害了。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;font-family:Tahoma, Arial, 宋体;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;3、切忌长时间怠速开空调。长时间停车怠速状态使用汽车空调会对发动机的散热系统、电池系统和整个空调系统产生不良的影响。这个时候，如果能够确定停车等待时间很长 ，最好把空调关上，放下车窗或者熄火后离开车子，这样做不但节省了燃油消耗，还能延长汽车空调的使用寿命。&lt;/span&gt;
+&lt;/p&gt;','admin','1443597166') [ RunTime:0.0598s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2015-09-30T15:12:47+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2015-09-30T15:12:48+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+
+[ 2015-09-30T15:12:48+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+
+[ 2015-09-30T15:13:46+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1213 行.
+SQL: INSERT INTO `news` (`name`,`cat_id`,`content`,`post_man`,`post_time`) VALUES ('加油时注意以下细节帮你省钱','1','&lt;div class=&quot;new_review&quot; style=&quot;margin:0px;padding:15px 0px;font-size:14px;font-family:Tahoma, Arial, 宋体;&quot;&gt;
+	&lt;strong&gt;&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;[导读]&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;为爱车加油的时候是不是都喜欢一次加满？一天中最适合加油的时间段是在什么时候？养成良好的加油习惯、掌握加油小窍门能帮车主省下不小的费用。&lt;/span&gt;
+&lt;/div&gt;
+&lt;div id=&quot;news_content&quot; class=&quot;news_con_box&quot; style=&quot;margin:10px auto 0px;padding:0px;border:0px;font-family:Tahoma, Arial, 宋体;&quot;&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;1、选择正规加油点&lt;/span&gt;&lt;/strong&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;&lt;/span&gt;&lt;strong&gt;&lt;/strong&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;text-align:center;&quot;&gt;
+		&lt;img src=&quot;http://file.mywst.com/User/d/dakechuanmei/13082/Ueditor/Pic/2015/06/02/cc009cbe-f129-4246-9b77-cb4f6c340115.jpg.jpg&quot; title=&quot;4042534_123152001819_2.jpg&quot; /&gt;&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;&lt;/span&gt;&lt;strong&gt;&lt;/strong&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;近年来许多厂家都用“油品”问题来搪塞车主，把部分属于车身质量问题责任转移到油品上，中石化和中石油的直属加油站的油品质量有保证，千万不可在很小的看起来都不顺眼的加油站加油;同时一定要保存好发票，万一出事，这是惟一的凭证。贪小便宜轻信那些所谓的低价汽油不是长久之计，当车辆真的因为油品问题出现问题的时候后悔莫及。&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;2、选择早上或晚上加油&lt;/span&gt;&lt;/strong&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color:#444444;background-color:#FFFFFF;&quot;&gt;&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;text-align:center;&quot;&gt;
+		&lt;img src=&quot;http://file.mywst.com/User/d/dakechuanmei/13082/Ueditor/Pic/2015/06/02/76083320-6304-4ba8-b718-b749ed428e0d.jpg.jpg&quot; title=&quot;4633281_980x1200_0.jpg&quot; /&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color:#444444;background-color:#FFFFFF;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color:#444444;background-color:#FFFFFF;&quot;&gt;&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;应避免中午太阳毒、气温高时加油。例如：油站地下储油罐只有在每天凌晨5点至8点(夏季)、5点至9：30(春、秋、冬季)温度最低，此时因为汽油是以体积而不是以重量计费，体积会受温度影响热胀冷缩。早上或晚上加油时，同体积的汽油可以有较多的质量，积少成多久了之后也能省下不小的费用。&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;3、尽量以公升的方式加油&lt;/span&gt;&lt;/strong&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;text-align:center;&quot;&gt;
+		&lt;img src=&quot;http://file.mywst.com/User/d/dakechuanmei/13082/Ueditor/Pic/2015/06/02/5ebc2420-987a-4a87-9ddb-93a59f7b4bda.jpg.jpg&quot; title=&quot;20140923093552914.jpg&quot; /&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;千万不要以多少钱的方式加油，因为四舍五入以后，你常常会无形中损失你的金钱。&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;4、跑市区请加油箱的一半或2/3&lt;/span&gt;&lt;/strong&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;text-align:center;&quot;&gt;
+		&lt;img src=&quot;http://file.mywst.com/User/d/dakechuanmei/13082/Ueditor/Pic/2015/06/02/36af7cae-59b4-42af-a309-0eddb0cbfcae.jpg.jpg&quot; title=&quot;201371617233778.jpg&quot; /&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;因为市区行车常常走走停停，若你加满油箱则会更加重引擎的负荷，起步没力且又使车辆耗油，况且市区加油站分布比较多，大可不必担心找不到加油站的情况发生。&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;5、若汽车很少开，建议保持油量在低液面&lt;/span&gt;&lt;/strong&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color:#444444;background-color:#FFFFFF;&quot;&gt;&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;text-align:center;&quot;&gt;
+		&lt;img src=&quot;http://file.mywst.com/User/d/dakechuanmei/13082/Ueditor/Pic/2015/06/02/2fd6cca4-18f0-43ca-8ea5-b3be94bd2bc6.jpg.jpg&quot; title=&quot;east-ep-a81-1634660.jpg&quot; /&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;6、发现油罐车，请找下一家&lt;/span&gt;&lt;/strong&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;text-align:center;&quot;&gt;
+		&lt;img src=&quot;http://file.mywst.com/User/d/dakechuanmei/13082/Ueditor/Pic/2015/06/02/9d2779d1-04aa-4123-ace7-f8053dfa50f4.jpg.jpg&quot; title=&quot;201305311229239KI.jpg&quot; /&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;如果你正要进加油站，发现油槽上停着一部油罐车，这个时候请调转车头继续找下一家加油站。因为油罐车补充的油料，会涌起槽底多年的沉积，很有可能就加到你的油箱里，如果这些杂质进入到发动机缸内，会影响发动机使用寿命。&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;7、在刚过完台风、暴雨天气不要加油&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;text-align:center;&quot;&gt;
+		&lt;img src=&quot;http://file.mywst.com/User/d/dakechuanmei/13082/Ueditor/Pic/2015/06/02/9319235a-37c1-4571-af2b-d1e8ce1f5b8f.jpg.jpg&quot; title=&quot;8c89a521168d153056691b.jpg&quot; /&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;虽然汽油是存放在地下的，但时间久了可能存在一定的泄漏，暴雨过后，排放不及的雨水有可能漏入油罐，同样会影响汽车发动机寿命。&lt;/span&gt;
+	&lt;/p&gt;
+&lt;/div&gt;','admin','1443597226') [ RunTime:0.0388s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2015-09-30T15:13:47+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2015-09-30T15:13:48+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2015-09-30T15:13:48+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+
+[ 2015-09-30T15:14:48+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1213 行.
+SQL: INSERT INTO `news` (`name`,`cat_id`,`content`,`post_man`,`post_time`) VALUES ('小小雨刮不能忽视 谈雨刮功能与使用方法','1','&lt;div class=&quot;new_review&quot; style=&quot;margin:0px;padding:15px 0px;font-size:14px;font-family:Tahoma, Arial, 宋体;&quot;&gt;
+	&lt;strong&gt;&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;[导读]&lt;/span&gt;&lt;/strong&gt;&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;如果在雨中驾车时，遇到雨刷不能有效清除风挡玻璃上面的雨水，就如同盲人驾车，失去了安全保障。 据相关资料显示，雨天驾车，由于雨刮片老化引起视野不清而导致的交通事故率比平常高出大约5倍，要避免这种情况就要掌握正确的雨刮操作方法 、以及保养知识，定期检查更换老化部件。&lt;/span&gt;
+&lt;/div&gt;
+&lt;div id=&quot;news_content&quot; class=&quot;news_con_box&quot; style=&quot;margin:10px auto 0px;padding:0px;border:0px;font-family:Tahoma, Arial, 宋体;&quot;&gt;
+	&lt;p style=&quot;font-size:14px;text-align:center;&quot;&gt;
+		&lt;img src=&quot;http://file.mywst.com/User/d/dakechuanmei/13082/Ueditor/Pic/2015/06/02/69ca17c4-e139-4258-8373-5cba93a442d7.jpg.jpg&quot; title=&quot;IMG_9021.jpg&quot; /&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;小小雨刮片，确实汽车上最不可或缺的零件。干旱了一段时间，突然下雨，如果雨刮片不工作，那么对不起，你只能靠边停车等雨停了。&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;1、雨刮控制杆功能介绍&lt;/span&gt;&lt;/strong&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;text-align:center;&quot;&gt;
+		&lt;img src=&quot;http://file.mywst.com/User/d/dakechuanmei/13082/Ueditor/Pic/2015/06/02/322e966f-e421-4e85-a53a-2c74d20e3ed9.jpg.jpg&quot; title=&quot;1231.jpg&quot; /&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;主流车辆雨刮杆一般在方向盘的右边，通过上下、前后来操作雨刮的功能。实现调节前后雨刮档位、频率等性能。部分车型还配有“自动感应”的功能，它会根据雨量大小调整雨刷快慢，彻底解放你操作雨刷开关的右手（在雨量较小情况下与实际需求有些偏差）。&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;2、雨刮的操作方法&lt;/span&gt;&lt;/strong&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;a、上下操作方法详细介绍&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;text-align:center;&quot;&gt;
+		&lt;img src=&quot;http://file.mywst.com/User/d/dakechuanmei/13082/Ueditor/Pic/2015/06/02/65ef45ec-942a-4ad1-958a-574ea6f85513.jpg.jpg&quot; title=&quot;IMG_5295.jpg&quot; /&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;本次以沃尔沃XC60为例，这款的雨刮操作向上推会自动回弹，雨刮工作一次，向下则分为三个挡位（慢速/中速/快速），属于比较主流的设计。当然部分车型的设计会稍有不同。&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;b、前后操作详解&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;text-align:center;&quot;&gt;
+		&lt;img src=&quot;http://file.mywst.com/User/d/dakechuanmei/13082/Ueditor/Pic/2015/06/02/480064b7-1e13-4cb5-95a7-90db03810ca0.jpg.jpg&quot; title=&quot;IMG_5294.jpg&quot; /&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;将雨刮杆往驾驶员方向扳，前档雨刮先喷水、刮一次。反之、后雨刮喷水、刮一次。&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;c、后雨刮的操作方法。&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;text-align:center;&quot;&gt;
+		&lt;img src=&quot;http://file.mywst.com/User/d/dakechuanmei/13082/Ueditor/Pic/2015/06/02/5eff01e4-e264-470e-b9a9-b5187fa38543.jpg.jpg&quot; title=&quot;IMG_9071.jpg&quot; /&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;当后挡风玻璃被遮挡，那么你行驶在路上或者倒车时将失去后方部分视野，大大降低行车安全性，因此后雨刮一样重要&lt;/span&gt;&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;。本车型后雨刮有三个档位调节，分别是慢、中、快。&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;雨刮错误的使用方法&lt;/span&gt;&lt;/strong&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;text-align:center;&quot;&gt;
+		&lt;img src=&quot;http://file.mywst.com/User/d/dakechuanmei/13082/Ueditor/Pic/2015/06/02/41623b03-47a6-4b12-a70e-766a94e18fe5.jpg.jpg&quot; title=&quot;IMG_5307.jpg&quot; /&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;text-align:center;&quot;&gt;
+		&lt;img src=&quot;http://file.mywst.com/User/d/dakechuanmei/13082/Ueditor/Pic/2015/06/02/fa8b05a7-e189-4248-b3d1-791029797279.jpg.jpg&quot; title=&quot;IMG_5288.jpg&quot; /&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;雨刮正确的使用方法&lt;/span&gt;&lt;/strong&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;text-align:center;&quot;&gt;
+		&lt;img src=&quot;http://file.mywst.com/User/d/dakechuanmei/13082/Ueditor/Pic/2015/06/02/7f20d6e0-3158-4df7-88e3-931a3e68e56f.jpg.jpg&quot; title=&quot;IMG_5312.jpg&quot; /&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;遇到异物遮挡视线的时候，应当将雨刮向前或者向后先喷水再让雨刮工作，这样能让整个雨刮运动过程的摩擦阻力更小。从而达到延长雨刮片寿命，防止玻璃被异物刮花的目的。&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-size:14px;&quot;&gt;
+		&lt;span style=&quot;font-size:18px;line-height:1.5;&quot;&gt;总结：雨刷片属于消耗品，一次购买并不能保证终生受益，所以要通过正确的操作方式来延长雨刮的使用寿命。很多人会问，雨刮多久更换好呢？一般而言一到两年就要更换了。但我们的建议是：雨刮挂后效果明显下降，那就要更换了。而养成良好的使用习惯还有助于减少前挡风玻璃的划痕，何乐不为呢？&lt;/span&gt;
+	&lt;/p&gt;
+&lt;/div&gt;','admin','1443597288') [ RunTime:0.0458s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001468s ]
+
+[ 2015-09-30T15:14:49+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2015-09-30T15:14:49+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+
+[ 2015-09-30T15:14:49+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2015-09-30T15:15:41+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Model.class.php 第 1213 行.
+SQL: INSERT INTO `news` (`name`,`cat_id`,`content`,`post_man`,`post_time`) VALUES ('达客传媒带您鉴别汽车烧机油怎么判断?','3','&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span =&quot;&quot;=&quot;&quot; style=&quot;font-size: 18px; color: rgb(0, 0, 0); line-height: 1.5;&quot;&gt;一、如何判断自己的车辆有烧机油现象?&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;发动机烧机油的表象是什么?&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;1、凉车烧机油&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;每天早晨第一次着车时，后排气管会有比较浓的蓝色烟雾排出，但过一段时间蓝色烟雾就会消失，之后一般不会再有类似的情况发生。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;2、加速时烧机油&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;在车辆行驶时猛踩油门或原地着车时猛踩油门时，从排气管会排出大量蓝烟，严重时可以从排气管一侧的反光镜中看见蓝色烟雾。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;烧机油对车辆的危害非常大，车辆氧传感器过快损坏，导致燃烧室的积碳增加、怠速不稳、加速无力、油耗上升、尾气排放超标等等严重后果。最严重时会因发动机润滑不足，使引擎造成难以修复的损伤甚至报废，造成维修成本大幅升高，甚至存在事故隐患。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;二、什么样的烧机油情况需要维修?&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;如果有烧机油情况，也不是都需要维修的。要经过一些判断和测试再确定维修方案。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;先把车辆加满机油，行驶1000公里后对机油机滤进行称重，然后再加满机油后再行驶1000公里。如此反复3次，将称重值取平均值。磨合期后机油的正常消耗一般在1000公里/1升的水平，如果超过这个标准值较多的话，就需要对发动机进行维修检查了。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;三、发动机烧机油应该怎么办?&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;发动机烧机油的主要原因是由于发动机润滑系统存在机油渗漏、汽缸壁和活塞环过度磨损、气门油封损坏或变硬老化等原因而造成的。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;如果发现发动机有烧机油的情况，应该怎么办?&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;1、如果是老旧车辆出现烧机油的话，可以适当选择为发动机添加黏度比较大的机油来增加发动机活塞、缸壁间的密封性。当然，彻底解决烧机油的最终办法还是要对车辆进行比较彻底的检修，才能从根本上解决问题。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;因为气门油封长时间使用后老化并磨损严重，已经无法达到很好的密封效果，所以，一些使用年限较长或行驶公里数较多的车辆更容易出现“烧机油”现象。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;2、如果发现车辆有烧机油迹象的话，要经常检查机油的标尺，按产品使用说明书要求定期更换机油和机油滤清器，更换正品机油滤清器备件，一但发现机油损耗异常，就要去修理厂进行检修了。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;3、为了满足发动机的工作正常和使用寿命，减少机油消耗，选择一款高端的机油很有必要。尤其是带涡轮增压器的发动机，它的工作温度更高对机油的要求也更高。要选择使用挥发率较低的优质发动机机油，因为机油挥发也是导致汽车烧机油的一个重要因素，选择全合成机油能大大减少烧机油现象的发生，给爱车带来全面的保护。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;四、发动机烧机油对车辆有什么危害?如何避免?&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;机油对发动机的保护至关重要，引发烧机油现象的原因有很多，机油易挥发、发动机磨合、发动机类型等都可能造成发动机烧机油，但通过加强对爱车的日常保养，可以减轻和避免这一风险。那么，应该注意哪些保养窍门呢?&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;1、日常勤检查机油&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;应根据不同的使用状况，在平时常规、日常的维护时定期检查机油，如机油液面超过下限，应及时添加。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;使用年限及里程较长的老旧车辆、经常在恶劣条件下使用的车辆，检查的频率要相应增加。这样，就算有烧机油现象，也能尽早发现，降低维修费用。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;2、选择高品质的汽油&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;汽油中的添加剂发生氧化后，会生成胶状物质，经过喷油嘴进入燃烧室燃烧后，就会在进气门、活塞顶部、活塞环槽、燃烧室、火花塞等部位形成积碳，加剧这些部位的老化，引起烧机油。所以，选用品质较好的汽油可减轻烧机油的现象。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;3、车辆保养周期稳定&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;车辆的保养周期是根据汽车的正常行驶情况制定的，使用条件比较恶劣的车辆，要根据实际情况缩短保养周期和规定的公里数。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;如何判断发动机是否存在烧机油现象?&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;1、眼观：烧机油的主要表现是行车时尾部排出蓝色尾气，这表示过多的机油进入燃烧室参与燃烧。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;具体的操作有以下几点：&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;(1)清晨冷车启动后，查看排气管是否会冒蓝烟。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;在清晨冷车时进行检测排气管是否冒蓝烟是因为发动机长时间不运转时，机油就会在重力的作用下通过气门油封的间隙流入汽缸。一启动发动机，汽缸内的机油就会在高温高压的作用下燃烧，产生大量蓝色烟雾。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;(2)在车辆行驶中或者原地猛踩油门时，排气管是否有大量蓝烟冒出。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;这种检测方法主要是检查发动机活塞环与汽缸壁之间是否存在密封不严。车辆在急加速时，活塞环上下运动频率加快，汽缸壁上残存的润滑油容易被活塞环带入燃烧室，导致“烧机油”。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;(3)除了排气管外，也要观察机油口是否会不时冒蓝烟。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;如果在任何情况下，排气管都有蓝烟冒出，而且机油口不时冒出蓝烟，说明发动机的磨损情况已相当严重，车辆需要及时进行大修，否则会造成严重的事故隐患。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#666666;font-family:宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-size:18px;color:#000000;line-height:1.5;&quot;&gt;2、机油尺检测：通过机油尺的检测来判断机油是否损耗过快。&lt;/span&gt;
+&lt;/p&gt;
+&lt;div&gt;
+	&lt;br /&gt;
+&lt;/div&gt;','admin','1443597341') [ RunTime:0.0505s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2015-09-30T15:15:42+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` WHERE ( 1 ) ORDER BY post_time desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\myProject\thinkphpFrame\Application\Runtime\Cache\Admin\36087655c6ab8580337cdc45b35a926d.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2015-09-30T15:15:42+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/closelabel.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+
+[ 2015-09-30T15:15:42+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/index.php/Admin/News/resources/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+
