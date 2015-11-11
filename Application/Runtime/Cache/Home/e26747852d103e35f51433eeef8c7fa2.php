@@ -98,14 +98,15 @@
               <p>达客车友会，专业专注宝鸡私家车车身广告代言</p>
           </div>
           <div class="row">
-            <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if($_GET['cat_id']== 3 or $_GET['cat_id']== 4): ?><div class="col-xs-12 col-lg-12">
-                <?php else: ?>
+            <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if($_GET['cat_id']== 3 or $_GET['cat_id']== 4): ?><div class="item-border col-xs-12 col-lg-12">
+              <?php else: ?>
                 <div class="col-xs-12 col-lg-6"><?php endif; ?>
                 <h2><?php echo ($vo["name"]); ?></h2>
                 <p><?php echo (mb_substr(strip_tags(htmlspecialchars_decode($vo["content"])),0,90,'utf-8')); ?></p>
                 <?php if($_GET['cat_id']== 3 or $_GET['cat_id']== 4): ?><p><a class="btn btn-primary" href="/myProject/thinkphpFrame/index.php/Home/Index/showPage/id/<?php echo ($vo["id"]); ?>/cat_id/<?php echo ($_GET['cat_id']); ?>" id="<?php echo ($vo["id"]); ?>" role="button">查看详情 &raquo;</a></p>
                 <?php else: ?>  
                   <p><a class="btn btn-primary" href="#" id="cat2_<?php echo ($vo["id"]); ?>" role="button">查看详情 &raquo;</a></p><?php endif; ?>
+                
               </div><!--/.col-xs-6.col-lg-4--><?php endforeach; endif; else: echo "" ;endif; ?>
           </div><!--/row-->
         </div><!--/.col-xs-12.col-sm-9-->
@@ -113,6 +114,23 @@
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
           <div class="list-group">
             <?php if(is_array($topNews)): $i = 0; $__LIST__ = $topNews;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><a href="/myProject/thinkphpFrame/index.php/Home/Index/showPage/id/<?php echo ($vo["id"]); ?>/cat_id/<?php echo ($vo["cat_id"]); ?>" class="list-group-item"><?php echo (mb_substr($vo["name"],0,16,"utf-8")); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
+          </div>
+
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">联系我们</h3>
+            </div>
+            <div class="panel-body">
+              <div class="contact_list">
+                  <ul class="contact_list_ul">            
+                      <li class="contact_list_li"><img src="/myProject/thinkphpFrame/Public/Home/images/tel_zc.jpg" width="190" height="50"></li>    
+                      <li class="contact_list_li"> <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=362374490&amp;site=qq&amp;menu=yes" target="_blank"><img src="/myProject/thinkphpFrame/Public/Home/images/qq_2.jpg" width="110" height="40"></a></li>    
+                      <li class="contact_list_li">
+                        <p><strong>地址：</strong>宝鸡市渭滨区胜利桥南盛华大厦B座609室</p>
+                      </li>       
+                  </ul>
+              </div>
+            </div>
           </div>
         </div><!--/.sidebar-offcanvas-->
       </div><!--/row-->

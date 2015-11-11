@@ -1,0 +1,168 @@
+<layout name="layout" />
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">陕西世海广告</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="__CONTROLLER__/index">首页 <span class="sr-only">(current)</span></a></li>
+                <li><a href="__CONTROLLER__/showPage/id/17">关于我们</a></li>
+                <li><a href="__CONTROLLER__/showPage/id/20">车体广告</a></li>
+                <li><a href="__CONTROLLER__/showPage1/cat_id/2">合作伙伴</a></li>
+                <li><a href="__CONTROLLER__/showPage1/cat_id/3">爱车保养</a></li>
+            </ul>
+            <include file="Public:login" />
+        </div><!--/.navbar-collapse -->
+    </div>
+</nav>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<!--<div class="body-top">-->
+    <!--<div class="jumbotron">-->
+        <!--<div class="container">-->
+            <!--<h1>Hello, world!</h1>-->
+            <!--<p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>-->
+            <!--<p><a class="btn btn-primary btn-lg" href="__MODULE__/User/signup" role="button">立即注册 &raquo;</a></p>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+<!--替换原来的大屏-->
+<div class="header">
+    <div class="header-bg" id="headerbg">
+
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="body-header page-header">
+        <h2>任务列表</h2>
+        <p class="lead">在这里您可以查看最新的私家车车体广告招募</p>
+    </div>
+    <!-- 显示任务列表 -->
+    <for start="1" end="$counts + 1" step="3" name="j">
+        <if condition="$j % 3 == 1">
+           <php>$a = $j;</php>
+        </if>
+        <div class="row">
+        	<volist name="tasks" id="vo" offset="$a - 1" length="3">
+    	        <div class="col-sm-6 col-md-4">
+    	            <div class="thumbnail">
+    	                <img style="height:180px; width:100%; display:block;" src="__PUBLIC__/{$vo.task_img_url}" alt="...">
+    	                <div class="caption">
+    	                    <h3>{$vo.task_name}</h3>
+    	                    <p>招募时间：{$vo.task_start_time|date="Y-m-d",###}&nbsp;至&nbsp;{$vo.task_end_time|date="Y-m-d",###}<br />
+                                数量：{$vo.task_car_num}辆<br />
+                                佣金：{$vo.task_money}元<br />
+                                任务状态：{$vo['task_state']?'报名中':'己结束'}<br />
+                            </p>
+    	                    <p>
+    	                    	<if condition="$vo['task_state'] eq 1">
+                                    <a href="__CONTROLLER__/showTask/id/{$vo.id}" class="btn btn-primary" role="button">报名</a>
+                                <else />
+                                    <a href="__CONTROLLER__/showTask/id/{$vo.id}" class="btn btn-default" role="button">己结束</a>
+                                </if>
+    	                    </p>
+    	                </div>
+    	            </div>
+    	        </div>
+            </volist>
+        </div>
+    </for>
+    <hr>
+    <div class="body-header page-header">
+        <h2>经典案例</h2>
+        <p class="lead">我们做过的经典案例</p>
+    </div>
+    <!-- 显示任务列表 -->
+    <for start="1" end="$counts_news + 1" step="3" name="j">
+        <if condition="$j % 3 == 1">
+            <php>$a = $j;</php>
+        </if>
+        <div class="row">
+            <volist name="news" id="vo" offset="$a - 1" length="3">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img style="height:180px; width:100%; display:block;" src="__PUBLIC__/{$vo.news_img_url}" alt="...">
+                        <div class="caption">
+                            <h3>{$vo.name}</h3>
+                            <p>&nbsp;</p>
+                            <p>
+                                <a href="__CONTROLLER__/showPage/id/{$vo.id}/cat_id/{$vo.cat_id}" class="btn btn-primary" role="button">查看详情</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </volist>
+        </div>
+    </for>
+    <hr>
+    <div class="body-header page-header">
+        <h2>会员排名</h2>
+        <p class="lead">显示最新的会员排名和积分最多的会员</p>
+    </div>
+    <!-- 显示会员排名 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                  <div class="panel-heading">最新会员排名</div>
+                  <div class="panel-body">
+                    <table class="table">
+                      <thead>
+                          <tr>
+                              <th>会员名称</th>
+                              <th>会员积分</th>
+                              <th>注册时间</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                        <volist name="new_members" id="vo1">
+                          <tr>
+                              <td>{$vo1.name}</td>
+                              <td>{$vo1.jifeng}</td>
+                              <td>{$vo1.posttime|date='Y-m-d H:i',###}</td>
+                          </tr>
+                        </volist>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                  <div class="panel-heading">会员积分排行</div>
+                  <div class="panel-body">
+                    <table class="table">
+                      <thead>
+                          <tr>
+                              <th>会员名称</th>
+                              <th>会员积分</th>
+                              <th>注册时间</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <volist name="jifeng_members" id="vo2">
+                          <tr>
+                              <td>{$vo2.name}</td>
+                              <td>{$vo2.jifeng}</td>
+                              <td>{$vo2.posttime|date='Y-m-d H:i',###}</td>
+                          </tr>
+                          </volist>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    

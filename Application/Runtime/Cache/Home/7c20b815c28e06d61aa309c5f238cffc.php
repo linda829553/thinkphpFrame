@@ -95,8 +95,8 @@
             <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
           </p>
           <div class="jumbotron">
-            <h1>Hello, world!</h1>
-            <p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
+            <h1>陕西世海广告公司</h1>
+            <p>达客车友会，专业专注宝鸡私家车车身广告代言</p>
           </div>
 
           <!-- 路径导航 -->
@@ -114,7 +114,7 @@
                 <!-- 任务详情头部 -->
                 <div class="task-head">
                   <div class="col-xs-12 col-lg-6">
-                    <img class="media-object" src="http://localhost/myProject/thinkphpFrame/Public/xiuxiu/55e6a11657bae.jpg" width="400px" height="250px" alt="...">
+                    <img class="media-object" src="/myProject/thinkphpFrame/Public/<?php echo ($data["task_img_url"]); ?>" width="400px" height="250px" alt="...">
                   </div>
                   <div class="col-xs-12 col-lg-6">
                     <h4 class="media-heading"><?php echo ($data["task_name"]); ?></h4>
@@ -211,12 +211,23 @@
 
       <hr>
 <a href="#top" id="toTop"></a>
-    <footer>
-    	
-        <p>&copy; Company 2014</p>
-    </footer>
+    
 </div> <!-- /container -->
-
+<footer class="main-footer">
+	<div class="copyright">
+		<div class="container">
+	        <div class="row">
+	            <div class="col-sm-12">
+	                <span>Copyright © <a href="http://www.shihaiguanggao.com/">陕西世海广告有限公司</a></span> | 
+	                <span><a href="http://www.miibeian.gov.cn/" target="_blank">陕ICP备11008151号</a></span> | 
+	                <span>陕公网安备11010802014853</span>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	
+    
+</footer>
 
 <!-- Bootstrap core JavaScript
 ================================================== -->

@@ -1,0 +1,60 @@
+[ 2015-10-20T08:14:04+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0405s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0407s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0419s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( cat_id=4 ) LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `tasks` ORDER BY task_posttime desc  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news` WHERE ( cat_id=4 ) ORDER BY post_time desc  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `user_info` ORDER BY posttime desc LIMIT 10   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user_info` ORDER BY jifeng desc LIMIT 10   [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2015-10-20T11:28:31+08:00 ] 127.0.0.1 /myProject/thinkphpFrame/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `tasks` [ RunTime:0.0605s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0153s ]
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tasks` LIMIT 1   [ RunTime:0.0306s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( cat_id=4 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\myProject\thinkphpFrame\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `tasks` ORDER BY task_posttime desc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `news` WHERE ( cat_id=4 ) ORDER BY post_time desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user_info` ORDER BY posttime desc LIMIT 10   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user_info` ORDER BY jifeng desc LIMIT 10   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+

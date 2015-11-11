@@ -133,6 +133,23 @@
               <?php else: ?>
                 <a href="/myProject/thinkphpFrame/index.php/Home/Index/showPage/id/<?php echo ($vo["id"]); ?>/cat_id/<?php echo ($vo["cat_id"]); ?>" class="list-group-item"><?php echo (mb_substr($vo["name"],0,16,"utf-8")); ?></a><?php endif; endforeach; endif; else: echo "" ;endif; ?>
           </div>
+
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">联系我们</h3>
+            </div>
+            <div class="panel-body">
+              <div class="contact_list">
+                  <ul class="contact_list_ul">            
+                      <li class="contact_list_li"><img src="/myProject/thinkphpFrame/Public/Home/images/tel_zc.jpg" width="190" height="50"></li>    
+                      <li class="contact_list_li"> <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=362374490&amp;site=qq&amp;menu=yes" target="_blank"><img src="/myProject/thinkphpFrame/Public/Home/images/qq_2.jpg" width="110" height="40"></a></li>    
+                      <li class="contact_list_li">
+                        <p><strong>地址：</strong>宝鸡市渭滨区胜利桥南盛华大厦B座609室</p>
+                      </li>       
+                  </ul>
+              </div>
+            </div>
+          </div>
         </div><!--/.sidebar-offcanvas-->
       </div><!--/row-->
 
